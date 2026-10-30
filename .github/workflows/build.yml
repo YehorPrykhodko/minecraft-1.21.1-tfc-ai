@@ -13,6 +13,7 @@ jobs:
           java-version: '21'
       - uses: gradle/actions/setup-gradle@v4
       - run: ./gradlew -PcoreOnly build --console=plain
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - run: ./gradlew build --console=plain
       - run: ./gradlew :mod:runGameTestServer --console=plain
       - uses: actions/upload-artifact@v4

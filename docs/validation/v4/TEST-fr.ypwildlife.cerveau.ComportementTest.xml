@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.ypwildlife.cerveau.ComportementTest" tests="53" skipped="0" failures="0" errors="0" timestamp="2026-10-30T21:53:09.382Z" hostname="87d3d16be861" time="0.434">
+  <properties/>
+  <testcase name="souvenirExpireSansPositionMagique()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.024"/>
+  <testcase name="refusNeChangeNiRaisonNiHorloge()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.014"/>
+  <testcase name="murProduitAvertissement()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="bordureNeFaitPasOsciller()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.002"/>
+  <testcase name="replayDeterministe()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.13"/>
+  <testcase name="profilsIndependants()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.002"/>
+  <testcase name="faimExtremeDepassePeurOrdinaire()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="secondJoueurTermineMotifChasseMaisPasDefense()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.002"/>
+  <testcase name="[1] 8.0" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="[2] 15.0" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[3] 22.0" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="urgenceInterromptEtMaintientLaPanique()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.011"/>
+  <testcase name="enfantNeChasseJamais()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="soloRepueOuTirageRateNeChassePas()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[1] grizzly_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.005"/>
+  <testcase name="[2] black_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[3] polar_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[4] wolf" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[5] direwolf" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[6] hyena" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[7] cougar" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[8] panther" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[9] lion" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[10] sabertooth" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[11] tiger" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="[12] crocodile" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="auditionAttenueEtVisionRespecteMur()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="refuseLeTempsInverse()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="migrationConserveEchelle()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.002"/>
+  <testcase name="premiereObservationImposeEvaluationAvantChasse()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="[1] grizzly_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.039"/>
+  <testcase name="[2] black_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.018"/>
+  <testcase name="[3] polar_bear" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.012"/>
+  <testcase name="[4] wolf" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.011"/>
+  <testcase name="[5] direwolf" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.008"/>
+  <testcase name="[6] hyena" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.007"/>
+  <testcase name="[7] cougar" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="[8] panther" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="[9] lion" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="[10] sabertooth" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="[11] tiger" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.005"/>
+  <testcase name="[12] crocodile" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.006"/>
+  <testcase name="faimNeDepassePasDangerMortel()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="voieImpossibleInterromptAvecCauseEtCooldown()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="retraiteAtteintDistancePuisNeRecommencePas()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="unSeulEngagementParTick()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="avertissementPuisPasPuisDefense()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.001"/>
+  <testcase name="faimSeuleNeDeclenchePasLaMeute()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="cibleMorteTermineCombat()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.002"/>
+  <testcase name="felinAffameObservePuisTraqueUneCibleDetournee()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="bruitLongRepousseRepriseDuCombat()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.018"/>
+  <testcase name="deuxJoueursInterdisentChasseHyene()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <testcase name="felinNeChassePasAvecTirageDefavorable()" classname="fr.ypwildlife.cerveau.ComportementTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

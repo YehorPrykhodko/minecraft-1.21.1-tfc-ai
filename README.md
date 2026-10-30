@@ -1,30 +1,37 @@
-# TFC Wildlife AI Remaster — source rewrite
+# TFC Wildlife AI Remaster — v4 test-alpha
 
-Новый Java 21 / Gradle проект для Minecraft 1.21.1 и NeoForge 21.1.235.
-Mod id: `tfc_wildlife_ai`. Целевые зависимости: TFC 4.2.7, TaCZ 1.1.8.
-Старые бинарные файлы находятся только в `legacy/` для функционального аудита.
+Новая реализация на Java 21 для Minecraft 1.21.1, NeoForge **21.1.235**, стандартного
+TerraFirmaCraft **4.2.7** и TaCZ **1.1.8-hotfix-r3**. Ветка `rewrite/v4`.
+Исходный v3 сохранён тегом `archive/v3-alpha1`; история и старые материалы сохранены.
 
-`core/` содержит неизменяемые снимки восприятия, предложения видов, единый
-арбитраж решений, координацию стай и единственный исполнитель маршрутов.
-`mod/` содержит серверные события NeoForge, адаптер навигации, три TFC mixin,
-диагностику, конфигурацию, persistence и обработку выстрелов TaCZ.
+Текущее задание — [ТЗ v4](docs/V4_SPEC_RU.md). Сначала выполнен
+[аудит расхождений](docs/GAP_ANALYSIS.md), затем заново созданы исходники `core/mod`.
+Исторические JAR используются только для аудита; их классов в новом моде нет.
+
+Реализованы единый арбитр, отдельные мотивы и действия, WARN/ограниченный DRIVE_OFF,
+защита подтверждённого потомства, коллективная оценка нескольких игроков,
+удержание боя и настоящий испуг, память с TTL, один исполнитель движения,
+нативный сон TFC, индивидуальные профили всех 12 хищников и автоматическая trace.
+Добыча и нейтральные животные пока сохраняют нативный AI; их новый AI — этап 5.
+
+- [Готовый игровой JAR](releases/tfc-wildlife-ai-remaster-4.0.0-alpha.1.jar)
+- [Сборка и установка](docs/BUILD_RU.md)
+- [Результаты и матрица всех 27 сценариев](docs/VALIDATION_RU.md)
+- [Архитектура, конфигурация и ограничения](docs/IMPLEMENTATION_RU.md)
+- [План игровых испытаний v18](docs/IN_GAME_TEST_PLAN_RU.md)
+
+Это тестовая alpha. Проверки стандартного TFC и серверные GameTest **не подтверждают
+совместимость с пользовательским TFC v18** или клиентскую анимацию походки.
 
 ```bash
-./gradlew -PcoreOnly build  # независимые автоматические проверки
-./gradlew build            # полная сборка мода с userdev
-./gradlew :mod:runGameTestServer  # реальные серверные smoke-тесты с TFC
+./gradlew build
+./gradlew :mod:runGameTestServer
+python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/analyze_trace.py /path/to/latest.log --output trace-report
 ```
 
-Состояние фактической проверки: [VALIDATION_RU.md](docs/VALIDATION_RU.md).
-Инструкции сборки: [BUILD_RU.md](docs/BUILD_RU.md).
-Аудит: [AUDIT.md](docs/AUDIT.md).
-Реализованная архитектура: [IMPLEMENTATION_RU.md](docs/IMPLEMENTATION_RU.md).
-Проверка в игре: [IN_GAME_TEST_PLAN_RU.md](docs/IN_GAME_TEST_PLAN_RU.md).
-
-Начальные требования сохранены в `TASK_FOR_CODEX_RU.md`, `docs/BEHAVIOR_SPEC_RU.md`
-и `tests/acceptance_cases.json`. `README_RU.md` описывает исходный стартовый пакет,
-а не статус готовности новой реализации.
-
-Стандартные TFC 4.2.7, Patchouli 92 и TaCZ 1.1.8-hotfix-r3 загружаются Gradle
-автоматически. Проверенная сборка и SHA-256 сохраняются в `releases/`.
-Пользовательский TFC v18 пока не проверен.
+Для облачной среды: `bash scripts/setup-cloud.sh`.
+Установить только один Wildlife JAR; старый v2/v3 убрать из `mods`.
+Новый серверный конфиг — `tfc_wildlife_ai-v4-server.toml`.
+Конфиг v3 с прежним именем сохраняется. Путь переноса пользовательских значений
+описан в инструкции сборки; NBT сытости/выносливости переносится при чтении сущности.

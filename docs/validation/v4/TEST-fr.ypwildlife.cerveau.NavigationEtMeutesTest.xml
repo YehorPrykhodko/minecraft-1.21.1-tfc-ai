@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.ypwildlife.cerveau.NavigationEtMeutesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-30T21:53:09.818Z" hostname="87d3d16be861" time="0.083">
+  <properties/>
+  <testcase name="driveOffArreteAvantContactEtLimitePas()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.02"/>
+  <testcase name="personnaliteStableEtDistincte()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.002"/>
+  <testcase name="meuteVoitUnionDesJoueurs()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.006"/>
+  <testcase name="meuteDecisionPartageeEtPasDeReroll()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.012"/>
+  <testcase name="pasDeCommandePourPropositionRefusee()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.001"/>
+  <testcase name="defenseEtVetoBlessure()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.001"/>
+  <testcase name="fuiteReutiliseUnChemin()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.007"/>
+  <testcase name="echecBackoffPuisLimite()" classname="fr.ypwildlife.cerveau.NavigationEtMeutesTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

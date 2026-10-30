@@ -1,0 +1,36 @@
+> Task :assemble UP-TO-DATE
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:sourcesJar UP-TO-DATE
+> Task :core:compileTestJava
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :core:test
+> Task :core:check
+> Task :mod:createMinecraftArtifacts UP-TO-DATE
+> Task :mod:compileJava
+> Task :mod:processResources UP-TO-DATE
+> Task :mod:classes
+> Task :mod:jarJar NO-SOURCE
+> Task :mod:jar
+> Task :mod:sourcesJar
+> Task :mod:compileTestJava NO-SOURCE
+> Task :mod:processTestResources NO-SOURCE
+> Task :mod:testClasses UP-TO-DATE
+> Task :mod:test NO-SOURCE
+> Task :mod:check UP-TO-DATE
+> Task :check
+> Task :core:assemble UP-TO-DATE
+> Task :core:build
+> Task :mod:assemble
+> Task :mod:build
+> Task :build
+> Task :mod:downloadAssets UP-TO-DATE
+> Task :mod:writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :mod:prepareGameTestServerRun UP-TO-DATE
+> Task :mod:validateRuntimeMods
+> Task :mod:runGameTestServer
+[21:53:40] [Server thread/INFO] [minecraft/GameTestServer]: All 13 required tests passed :)
+BUILD SUCCESSFUL in 37s

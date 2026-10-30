@@ -29,5 +29,6 @@ fi
 source "$wildlife_root/scripts/cloud-env.sh"
 cd "$wildlife_root"
 ./gradlew -PcoreOnly build --console=plain
+python3 -m unittest discover -s scripts -p 'test_*.py'
 # La compilation complète doit réussir avant de livrer le mod.
 ./gradlew build :mod:runGameTestServer --console=plain

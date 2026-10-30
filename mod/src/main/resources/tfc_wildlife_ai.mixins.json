@@ -1,1 +1,1 @@
-{"required":true,"minVersion":"0.8","package":"fr.ypwildlife.jeu.mixin","compatibilityLevel":"JAVA_21","mixins":["PredateurMixin","AutresCerveauxMixin"],"injectors":{"defaultRequire":1}}
+{"required":true,"minVersion":"0.8","package":"fr.ypwildlife.jeu.mixin","compatibilityLevel":"JAVA_21","mixins":["PredateurMixin","AutresCerveauxMixin","RotationMixin"],"injectors":{"defaultRequire":1}}
