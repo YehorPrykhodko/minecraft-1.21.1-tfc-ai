@@ -1,0 +1,359 @@
+Certificate was added to keystore
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/tools/cloud-cacerts -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :assemble UP-TO-DATE
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:sourcesJar UP-TO-DATE
+> Task :core:compileTestJava UP-TO-DATE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :core:check UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :core:assemble UP-TO-DATE
+> Task :core:build UP-TO-DATE
+> Task :build UP-TO-DATE
+
+BUILD SUCCESSFUL in 5s
+5 actionable tasks: 5 up-to-date
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/tools/cloud-cacerts -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :assemble UP-TO-DATE
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:sourcesJar UP-TO-DATE
+> Task :core:compileTestJava UP-TO-DATE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :core:check UP-TO-DATE
+> Task :mod:createMinecraftArtifacts UP-TO-DATE
+> Task :mod:compileJava
+> Task :mod:processResources UP-TO-DATE
+> Task :mod:classes
+> Task :mod:jarJar NO-SOURCE
+> Task :mod:jar
+> Task :mod:sourcesJar
+> Task :mod:compileTestJava NO-SOURCE
+> Task :mod:processTestResources NO-SOURCE
+> Task :mod:testClasses UP-TO-DATE
+> Task :mod:test NO-SOURCE
+> Task :mod:check UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :core:assemble UP-TO-DATE
+> Task :core:build UP-TO-DATE
+> Task :mod:assemble
+> Task :mod:build
+> Task :build
+> Task :mod:downloadAssets UP-TO-DATE
+> Task :mod:writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :mod:prepareGameTestServerRun UP-TO-DATE
+> Task :mod:validateRuntimeMods
+
+> Task :mod:runGameTestServer
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/tools/cloud-cacerts -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[16:18:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.235, --fml.neoFormVersion, 20240808.144430]
+[16:18:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[16:18:05] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.57
+[16:18:05] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[16:18:05] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspace/.gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                                                                                 SpongePowered MIXIN (Verbose debugging enabled)                                                                                                  */
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                         Code source : union:/workspace/.gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ */
+/*                                    Internal Version : 0.8.7                                                                                                                                                                                      */
+/*                                        Java Version : 21.0 (supports compatibility 6-21)                                                                                                                                                         */
+/*                         Default Compatibility Level : JAVA_16                                                                                                                                                                                    */
+/*                   Max Effective Compatibility Level : JAVA_13                                                                                                                                                                                    */
+/*                                Detected ASM Version : ASM 9.8 (ASM10_EXPERIMENTAL)                                                                                                                                                               */
+/*                          Detected ASM Supports Java : Up to Java 25 (class file version 69.0)                                                                                                                                                    */
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                        Service Name : ModLauncher                                                                                                                                                                                */
+/*                                 Mixin Service Class : org.spongepowered.asm.service.modlauncher.MixinServiceModLauncher                                                                                                                          */
+/*                       Global Property Service Class : org.spongepowered.asm.service.modlauncher.Blackboard                                                                                                                                       */
+/*                                 Logger Adapter Type : Log4j2 (via ModLauncher)                                                                                                                                                                   */
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                         mixin.debug : <false>                                                                                                                                                                                    */
+/*                                  mixin.debug.export : - <false>                                                                                                                                                                                  */
+/*                           mixin.debug.export.filter : - - <null>                                                                                                                                                                                 */
+/*                        mixin.debug.export.decompile : - - <false>                                                                                                                                                                                */
+/*                  mixin.debug.export.decompile.async : - - - <false>                                                                                                                                                                              */
+/* mixin.debug.export.decompile.mergeGenericSignatures : - - - <false>                                                                                                                                                                              */
+/*                                  mixin.debug.verify : - <false>                                                                                                                                                                                  */
+/*                                 mixin.debug.verbose : - <true>                                                                                                                                                                                   */
+/*                         mixin.debug.countInjections : - <false>                                                                                                                                                                                  */
+/*                                  mixin.debug.strict : - <false>                                                                                                                                                                                  */
+/*                           mixin.debug.strict.unique : - - <false>                                                                                                                                                                                */
+/*                          mixin.debug.strict.targets : - - <false>                                                                                                                                                                                */
+/*                                mixin.debug.profiler : - <false>                                                                                                                                                                                  */
+/*                           mixin.dumpTargetOnFailure : <false>                                                                                                                                                                                    */
+/*                                        mixin.checks : <false>                                                                                                                                                                                    */
+/*                             mixin.checks.interfaces : - <false>                                                                                                                                                                                  */
+/*                      mixin.checks.interfaces.strict : - - <false>                                                                                                                                                                                */
+/*                             mixin.ignoreConstraints : <false>                                                                                                                                                                                    */
+/*                                       mixin.hotSwap : <false>                                                                                                                                                                                    */
+/*                                       mixin.env.obf : - <false>                                                                                                                                                                                  */
+/*                             mixin.env.disableRefMap : - <false>                                                                                                                                                                                  */
+/*                               mixin.env.remapRefMap : - <false>                                                                                                                                                                                  */
+/*                       mixin.env.refMapRemappingFile : - <>                                                                                                                                                                                       */
+/*                        mixin.env.refMapRemappingEnv : - <searge>                                                                                                                                                                                 */
+/*                      mixin.env.allowPermissiveMatch : - <false>                                                                                                                                                                                  */
+/*                            mixin.env.ignoreRequired : - <false>                                                                                                                                                                                  */
+/*                               mixin.env.compatLevel : - <false>                                                                                                                                                                                  */
+/*                          mixin.env.shiftByViolation : - <warn>                                                                                                                                                                                   */
+/*                      mixin.initialiserInjectionMode : <default>                                                                                                                                                                                  */
+/*               mixin.tunable.classReaderExpandFrames : - <false>                                                                                                                                                                                  */
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                    UNSAFE_INJECTION : available=<true> enabled=<true>                                                                                                                                                            */
+/*                       INJECTORS_IN_INTERFACE_MIXINS : available=<true> enabled=<true>                                                                                                                                                            */
+/****************************************************************************************************************************************************************************************************************************************************/
+/*                                       Detected Side : SERVER                                                                                                                                                                                     */
+/****************************************************************************************************************************************************************************************************************************************************/
+[16:18:05] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[16:18:05] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.235 (neoforge)
+		Patchouli 1.21.1-92-NEOFORGE (patchouli)
+		SimpleBedrockModel 2.2.1-neoforge+mc1.21.1 (simplebedrockmodel)
+		TerraFirmaCraft 4.2.7 (tfc)
+		TFC Wildlife AI Remaster 3.0.0-alpha.1 (tfc_wildlife_ai)
+		Timeless & Classics Guns: Zero 1.1.8-hotfix-r3 (tacz)
+[16:18:06] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by tacz.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16:18:06] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16:18:06] [main/WARN] [mixin/]: Compatibility level JAVA_21 specified by patchouli_xplat.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16:18:06] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[16:18:06] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by simplebedrockmodel.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[16:18:06] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[16:18:07] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[16:18:07] [main/INFO] [mixin/]: Selecting config tacz.mixins.json
+[16:18:07] [main/WARN] [mixin/]: Reference map 'tacz.refmap.json' for tacz.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:18:07] [main/INFO] [mixin/]: Selecting config tacz.compat.acceleratedrendering.mixins.json
+[16:18:07] [main/WARN] [mixin/]: Reference map 'tacz.refmap.json' for tacz.compat.acceleratedrendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:18:07] [main/INFO] [mixin/]: Selecting config patchouli_xplat.mixins.json
+[16:18:07] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:18:07] [main/INFO] [mixin/]: Selecting config simplebedrockmodel.mixins.json
+[16:18:07] [main/WARN] [mixin/]: Reference map 'simplebedrockmodel.refmap.json' for simplebedrockmodel.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:18:07] [main/INFO] [mixin/]: Selecting config neoforge.mixins.json
+[16:18:07] [main/INFO] [mixin/]: Selecting config tfc.mixins.json
+[16:18:07] [main/WARN] [mixin/]: Reference map 'tfc.refmap.json' for tfc.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:18:07] [main/INFO] [mixin/]: Selecting config tfc_wildlife_ai.mixins.json
+[16:18:07] [main/INFO] [mixin/]: Selecting config mixinextras.init.mixins.json
+[16:18:07] [main/INFO] [mixin/]: Preparing tacz.mixins.json (15)
+[16:18:07] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/controllable/client/binding/context/BindingContext (java.lang.ClassNotFoundException: com.mrcrayfish.controllable.client.binding.context.BindingContext)
+[16:18:07] [main/INFO] [mixin/]: Preparing tacz.compat.acceleratedrendering.mixins.json (1)
+[16:18:07] [main/INFO] [mixin/]: Preparing patchouli_xplat.mixins.json (10)
+[16:18:07] [main/INFO] [mixin/]: Preparing simplebedrockmodel.mixins.json (4)
+[16:18:07] [main/INFO] [mixin/]: Preparing neoforge.mixins.json (2)
+[16:18:07] [main/INFO] [mixin/]: Preparing tfc.mixins.json (72)
+[16:18:07] [main/INFO] [mixin/]: Preparing tfc_wildlife_ai.mixins.json (3)
+[16:18:07] [main/INFO] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[16:18:07] [main/INFO] [mixin/]: Prepared 62 mixins in 0.842 sec (13.6ms avg) (0ms load, 0ms transform, 0ms plugin)
+[16:18:07] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[16:18:07] [main/INFO] [mixin/]: Mixing MainMixin from tfc.mixins.json into net.minecraft.server.Main
+[16:18:08] [main/INFO] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[16:18:08] [main/INFO] [mixin/]: Mixing accessor.BlockBehaviourAccessor from tfc.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
+[16:18:08] [main/INFO] [mixin/]: Mixing accessor.BlockStateBaseAccessor from tfc.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[16:18:08] [main/INFO] [mixin/]: Mixing LevelAccessorMixin from tfc.mixins.json into net.minecraft.world.level.LevelAccessor
+[16:18:08] [main/INFO] [mixin/]: Mixing EntityMixin from tfc.mixins.json into net.minecraft.world.entity.Entity
+[16:18:08] [main/INFO] [mixin/]: Mixing PlayerMixin from tfc.mixins.json into net.minecraft.world.entity.player.Player
+[16:18:08] [main/INFO] [mixin/]: Mixing common.LivingEntityMixin from tacz.mixins.json into net.minecraft.world.entity.LivingEntity
+[16:18:08] [main/WARN] [mixin/]: tacz.mixins.json:common.LivingEntityMixin from mod tacz: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[16:18:08] [main/INFO] [mixin/]: Renaming synthetic method lambda$initialData$0()Lnet/minecraft/world/item/ItemStack; to md3fce34$tacz$lambda$initialData$0$0 in tacz.mixins.json:common.LivingEntityMixin from mod tacz
+[16:18:08] [main/INFO] [mixin/]: Mixing LevelMixin from tfc.mixins.json into net.minecraft.world.level.Level
+[16:18:08] [main/INFO] [mixin/]: Mixing ServerLevelMixin from tfc.mixins.json into net.minecraft.server.level.ServerLevel
+[16:18:09] [main/INFO] [mixin/]: Mixing FallingBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.FallingBlock
+[16:18:09] [main/INFO] [mixin/]: Mixing SnowLayerBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.SnowLayerBlock
+[16:18:09] [main/INFO] [mixin/]: Mixing VineBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.VineBlock
+[16:18:09] [main/INFO] [mixin/]: Mixing WaterMixin from tfc.mixins.json into net.minecraft.world.level.material.WaterFluid
+[16:18:09] [main/INFO] [mixin/]: Mixing FlowingFluidMixin from tfc.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[16:18:09] [main/INFO] [mixin/]: Mixing accessor.FlowingFluidAccessor from tfc.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[16:18:09] [main/INFO] [mixin/]: Mixing LavaMixin from tfc.mixins.json into net.minecraft.world.level.material.LavaFluid
+[16:18:09] [main/INFO] [mixin/]: Mixing accessor.FallingBlockEntityAccessor from tfc.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[16:18:09] [main/INFO] [mixin/]: Mixing PistonBlockEntityMixin from tfc.mixins.json into net.minecraft.world.level.block.piston.PistonMovingBlockEntity
+[16:18:09] [main/INFO] [mixin/]: Mixing MobMixin from tfc.mixins.json into net.minecraft.world.entity.Mob
+[16:18:09] [main/INFO] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[16:18:10] [main/INFO] [mixin/]: Mixing ItemStackMixin from tfc.mixins.json into net.minecraft.world.item.ItemStack
+[16:18:10] [main/INFO] [mixin/]: Mixing BiomeMixin from tfc.mixins.json into net.minecraft.world.level.biome.Biome
+[16:18:10] [main/INFO] [mixin/]: Mixing accessor.BiomeAccessor from tfc.mixins.json into net.minecraft.world.level.biome.Biome
+[16:18:10] [main/INFO] [mixin/]: Mixing TadpoleMixin from tfc.mixins.json into net.minecraft.world.entity.animal.frog.Tadpole
+[16:18:10] [main/INFO] [mixin/]: Mixing common.ServerPlayerMixin from tacz.mixins.json into net.minecraft.server.level.ServerPlayer
+[16:18:10] [main/INFO] [mixin/]: Mixing accessor.PatchedDataComponentMapAccessor from tfc.mixins.json into net.minecraft.core.component.PatchedDataComponentMap
+[16:18:11] [main/INFO] [mixin/]: Mixing MilkBucketItemMixin from tfc.mixins.json into net.minecraft.world.item.MilkBucketItem
+[16:18:11] [main/INFO] [mixin/]: Mixing accessor.ChunkAccessAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.ChunkAccess
+[16:18:12] [main/INFO] [mixin/]: Mixing AbstractSkeletonMixin from tfc.mixins.json into net.minecraft.world.entity.monster.AbstractSkeleton
+[16:18:12] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$reassessWeaponGoal$1(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z to md3fce34$tfc$lambda$inject$reassessWeaponGoal$1$0 in tfc.mixins.json:AbstractSkeletonMixin from mod tfc
+[16:18:12] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$reassessWeaponGoal$0(Lnet/minecraft/world/item/Item;)Z to md3fce34$tfc$lambda$inject$reassessWeaponGoal$0$1 in tfc.mixins.json:AbstractSkeletonMixin from mod tfc
+[16:18:12] [main/INFO] [mixin/]: Mixing accessor.CamelAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.camel.Camel
+[16:18:12] [main/INFO] [mixin/]: Mixing accessor.HorseAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.horse.Horse
+[16:18:12] [main/INFO] [mixin/]: Mixing accessor.OcelotAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.Ocelot
+[16:18:12] [main/INFO] [mixin/]: Mixing FishingHookMixin from tfc.mixins.json into net.minecraft.world.entity.projectile.FishingHook
+[16:18:12] [main/INFO] [mixin/]: Mixing PredatorBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.predator.Predator
+[16:18:12] [main/INFO] [mixin/]: Mixing PreyBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.prey.Prey
+[16:18:12] [main/INFO] [mixin/]: Mixing RammingBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.prey.RammingPrey
+[16:18:13] [main/INFO] [mixin/]: Mixing HeightmapMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.Heightmap$Types
+[16:18:13] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$init$0(Ljava/util/function/Predicate;Lnet/minecraft/world/level/block/state/BlockState;)Z to md3fce34$tfc$lambda$inject$init$0$0 in tfc.mixins.json:HeightmapMixin from mod tfc
+[16:18:13] [main/WARN] [mixin/]: Write access to @Mutable @Final field isOpaque:Ljava/util/function/Predicate; in tfc.mixins.json:HeightmapMixin from mod tfc::handler$zzn000$tfc$inject$init
+[16:18:13] [main/INFO] [mixin/]: Mixing AccessorSmithingTransformRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTransformRecipe
+[16:18:13] [main/INFO] [mixin/]: Mixing AccessorSmithingTrimRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTrimRecipe
+[16:18:14] [main/INFO] [mixin/]: Mixing accessor.ChunkGeneratorAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[16:18:14] [main/INFO] [mixin/]: Mixing accessor.GameRulesAccessor from tfc.mixins.json into net.minecraft.world.level.GameRules
+[16:18:14] [main/INFO] [mixin/]: Renaming @Accessor method accessor$getGameRuleTypes()Ljava/util/Map; to accessor$getGameRuleTypes$tfc_$md$3fce34$0 in tfc.mixins.json:accessor.GameRulesAccessor from mod tfc
+[16:18:14] [main/INFO] [mixin/]: Mixing accessor.GameRulesTypeAccessor from tfc.mixins.json into net.minecraft.world.level.GameRules$Type
+[16:18:14] [main/INFO] [mixin/]: Mixing WorldPresetsMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.presets.WorldPresets
+[16:18:14] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:18:14] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:18:14] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:18:14] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:18:14] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:18:14] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.235, for MC 1.21.1
+[16:18:15] [modloading-worker-0/INFO] [ne.dr.tf.TerraFirmaCraft/]: Initializing TerraFirmaCraft
+[16:18:15] [modloading-worker-0/INFO] [ne.dr.tf.TerraFirmaCraft/]: Options: Assertions = false, Debug = false, Production = false, Dist = DEDICATED_SERVER, Self Test = false (Fatal = true)
+[16:18:15] [modloading-worker-0/WARN] [yp.tf.TFCWildlifeAI/]: TaCZ : événement préalable utilisé ; une tentative non annulée peut précéder l'échec d'un tir. Vérifier le hotfix-r3.
+[16:18:15] [modloading-worker-0/INFO] [yp.tf.TFCWildlifeAI/]: Intégration sonore TaCZ : GunFireEvent
+[16:18:19] [modloading-sync-worker/INFO] [mixin/]: Mixing SpawnPlacementsMixin from tfc.mixins.json into net.minecraft.world.entity.SpawnPlacements
+[16:18:22] [modloading-worker-0/INFO] [ne.dr.tf.TerraFirmaCraft/]: TFC Common Setup
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[16:18:22] [modloading-sync-worker/ERROR] [ne.ne.fm.co.as.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/components/Button for invalid dist DEDICATED_SERVER
+[16:18:22] [main/INFO] [mixin/]: Mixing DedicatedServerPropertiesMixin from tfc.mixins.json into net.minecraft.server.dedicated.DedicatedServerProperties
+[16:18:22] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:18:22] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar%2377!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%2377!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar%2377!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar%2377!/:?] {}
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?] {}
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?] {}
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?] {}
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?] {}
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?] {}
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1298) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?] {}
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar%2377!/:?] {}
+	... 9 more
+[16:18:22] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/workspace/minecraft-1.21.1-tfc-ai/mod/build/moddev/artifacts/neoforge-21.1.235.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[16:18:22] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/workspace/minecraft-1.21.1-tfc-ai/mod/build/moddev/artifacts/neoforge-21.1.235.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[16:18:22] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [tfc_wildlife_ai]
+[16:18:22] [main/INFO] [mixin/]: Mixing ServerPlayerGameModeMixin from tfc.mixins.json into net.minecraft.server.level.ServerPlayerGameMode
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspace/minecraft-1.21.1-tfc-ai/run/gametest/tacz
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[16:18:22] [main/INFO] [mixin/]: Mixing PrimaryLevelDataMixin from tfc.mixins.json into net.minecraft.world.level.storage.PrimaryLevelData
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspace/minecraft-1.21.1-tfc-ai/run/gametest/tacz
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[16:18:22] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[16:18:23] [Worker-Main-2/INFO] [mixin/]: Mixing RecipeManagerMixin from tfc.mixins.json into net.minecraft.world.item.crafting.RecipeManager
+[16:18:23] [Worker-Main-2/INFO] [mixin/]: Mixing accessor.RecipeManagerAccessor from tfc.mixins.json into net.minecraft.world.item.crafting.RecipeManager
+[16:18:23] [Worker-Main-2/INFO] [mixin/]: Mixing TagLoaderMixin from tfc.mixins.json into net.minecraft.tags.TagLoader
+[16:18:24] [main/INFO] [minecraft/RecipeManager]: Loaded 7434 recipes
+[16:18:24] [main/INFO] [minecraft/AdvancementTree]: Loaded 1515 advancements
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 2 entity_damage_resistance(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 11 item_damage_resistance(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 5 drinkable(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 10 fertilizer(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 50 fuel(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 28 fluid_heat(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 5 knapping_type(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 1 support(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 67 item_size(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 76 fauna(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 49 climate_range(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 4 lamp_fuel(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 84 deposit(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 343 item_heat(s).
+[16:18:24] [main/INFO] [ne.dr.tf.ut.da.DataManager/]: Loaded 192 food(s).
+[16:18:28] [main/ERROR] [ne.ne.fm.co.as.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[16:18:28] [main/INFO] [ne.dr.tf.ut.Helpers/]: ^ This is fine - No client or server recipe manager present upon initial resource reload on physical server
+[16:18:28] [main/ERROR] [ne.ne.fm.co.as.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[16:18:28] [main/INFO] [ne.dr.tf.ut.Helpers/]: ^ This is fine - No client or server recipe manager present upon initial resource reload on physical server
+[16:18:28] [main/INFO] [ne.dr.tf.co.co.TFCComponents/]: Modified default components of 4956 items after resource reload
+[16:18:28] [main/INFO] [ne.dr.tf.ut.SelfTests/]: Data pack self tests passed in 7.634 ms
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing ChunkMapMixin from tfc.mixins.json into net.minecraft.server.level.ChunkMap
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing accessor.ChunkMapAccessor from tfc.mixins.json into net.minecraft.server.level.ChunkMap
+[16:18:28] [Server thread/WARN] [mixin/]: Write access to @Mutable @Final field worldGenContext:Lnet/minecraft/world/level/chunk/status/WorldGenContext; in tfc.mixins.json:ChunkMapMixin from mod tfc::tfc$updateGenerator
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing RandomStateMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.RandomState
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing accessor.SectionStorageAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.storage.SectionStorage
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing accessor.PoiSectionAccessor from tfc.mixins.json into net.minecraft.world.entity.ai.village.poi.PoiSection
+[16:18:28] [Server thread/INFO] [ne.dr.tf.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:overworld.
+[16:18:28] [Server thread/INFO] [ne.dr.tf.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_nether.
+[16:18:28] [Server thread/INFO] [ne.dr.tf.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_end.
+[16:18:28] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[16:18:28] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[16:18:28] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 205 ms
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing GameTestInfoMixin from tfc.mixins.json into net.minecraft.gametest.framework.GameTestInfo
+[16:18:28] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[16:18:28] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[16:18:28] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[16:18:28] [Server thread/INFO] [minecraft/GameTestServer]: 4 tests are now running at position -4657801, -59, 4550868!
+[16:18:28] [Server thread/INFO] [mixin/]: Mixing accessor.StructureTemplateAccessor from tfc.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate
+[16:18:29] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wildlife_brains:0' (1 tests)...
+[16:18:29] [Server thread/INFO] [minecraft/GameTestServer]: [    ]
+[16:18:29] [Server thread/INFO] [minecraft/GameTestServer]: [    ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wildlife_combat:0' (1 tests)...
+[16:18:30] [Server thread/INFO] [minecraft/GameTestServer]: [+   ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestServer]: [+   ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestServer]: [+_  ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestServer]: [+_  ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestServer]: [+_  ]
+[16:18:30] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wildlife_persistence:0' (1 tests)...
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [++  ]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [++  ]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'wildlife_tacz:0' (1 tests)...
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++ ]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++ ]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++_]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++_]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++]
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: ========= 4 GAME TESTS COMPLETE IN 2.961 s ======================
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: All 4 required tests passed :)
+[16:18:31] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[16:18:31] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[16:18:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[16:18:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:18:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:18:32] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+BUILD SUCCESSFUL in 39s
+15 actionable tasks: 5 executed, 10 up-to-date

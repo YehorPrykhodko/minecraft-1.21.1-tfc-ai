@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ypmods.tfcwildlife.core.AcceptanceCasesTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-10-30T16:07:02.912Z" hostname="74e43215cc01" time="0.105">
+  <properties/>
+  <testcase name="grizzly-approach-calm" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.009"/>
+  <testcase name="grizzly-attack-committed" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.021"/>
+  <testcase name="grizzly-attack-pursued" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.008"/>
+  <testcase name="grizzly-critical-injury" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.002"/>
+  <testcase name="grizzly-real-fear" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.002"/>
+  <testcase name="grizzly-retreat-target" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.011"/>
+  <testcase name="immutability-veto" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.001"/>
+  <testcase name="hyena-solo-satiated" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.001"/>
+  <testcase name="hyena-solo-hungry" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.0"/>
+  <testcase name="hyena-pack-healthy-player" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.011"/>
+  <testcase name="hyena-pack-weak-player" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.01"/>
+  <testcase name="hyena-pack-wounded-member" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.005"/>
+  <testcase name="hyena-pack-stability" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.001"/>
+  <testcase name="hyena-flee-hunger" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.0"/>
+  <testcase name="sound-occlusion" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.003"/>
+  <testcase name="trace-reason" classname="ypmods.tfcwildlife.core.AcceptanceCasesTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

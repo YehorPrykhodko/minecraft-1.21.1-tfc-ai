@@ -1,0 +1,16 @@
+.gradle/
+build/
+out/
+run/
+*.class
+*.log
+!logs/*.txt
+libs/
+local-deps/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+.local-tools/
+.gradle-cache/
+dist/

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ypmods.tfcwildlife.core.PackCoordinatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-30T16:07:03.116Z" hostname="74e43215cc01" time="0.018">
+  <properties/>
+  <testcase name="woundedMemberEscapesWhileHealthyMembersHunt()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="oneSafeAdultCannotStartPackHunt()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="packSynchronizesWeakPlayerRegardlessOfHungerOrOrder()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="babiesCannotEstablishPack()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="exactThresholdDoesNotStartHunt()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.0"/>
+  <testcase name="sharedCommitmentExpiresAfterPlayerRecovers()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="differentSpeciesNeverSharePack()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.0"/>
+  <testcase name="hungryPackDoesNotHuntHealthyPlayer()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.0"/>
+  <testcase name="prolongedSeparationAndDeathRemoveMembership()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.001"/>
+  <testcase name="unseenPlayerIsNotSelectedOmnisciently()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.0"/>
+  <testcase name="radiusJitterDoesNotSwitchSoloPackEveryTick()" classname="ypmods.tfcwildlife.core.PackCoordinatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

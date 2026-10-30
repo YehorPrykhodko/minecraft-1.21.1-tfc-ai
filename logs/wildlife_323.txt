@@ -1,0 +1,775 @@
+[26жовт.2026 21:47:12.481] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 INTENT IDLE -> HUNT reason=hunger_hunt_drive 99.2
+[26жовт.2026 21:47:13.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#206 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:13.688] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#212 INTENT IDLE -> HUNT reason=hunger_hunt_drive 97.5
+[26жовт.2026 21:47:17.227] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#229 INTENT IDLE -> HUNT reason=hunger_hunt_drive 94.7
+[26жовт.2026 21:47:19.882] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT IDLE -> HUNT reason=hunger_hunt_drive 48.2
+[26жовт.2026 21:47:19.885] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.888] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT IDLE -> HUNT reason=hunger_hunt_drive 55.1
+[26жовт.2026 21:47:19.889] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.892] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.894] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT IDLE -> HUNT reason=hunger_hunt_drive 98.5
+[26жовт.2026 21:47:19.896] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.899] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.901] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:19.905] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT IDLE -> HUNT reason=hunger_hunt_drive 53.8
+[26жовт.2026 21:47:19.907] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:47:20.707] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#272 INTENT IDLE -> HUNT reason=hunger_hunt_drive 98.6
+[26жовт.2026 21:47:21.687] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 DETECTED player d=43.9 awareness=0.60 vision=0.32
+[26жовт.2026 21:47:21.688] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 INTENT HUNT -> FLEE reason=low_health_flee
+[26жовт.2026 21:47:44.857] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#433 INTENT IDLE -> HUNT reason=hunger_hunt_drive 97.8
+[26жовт.2026 21:47:44.859] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#394 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:44.862] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:45.508] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#439 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:45.512] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:panther#440 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:45.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#443 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:45.526] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#447 INTENT IDLE -> HUNT reason=hunger_hunt_drive 66.1
+[26жовт.2026 21:47:45.533] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#451 INTENT IDLE -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:47:45.540] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#455 INTENT IDLE -> HUNT reason=hunger_hunt_drive 53.7
+[26жовт.2026 21:47:45.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#456 INTENT IDLE -> HUNT reason=hunger_hunt_drive 73.9
+[26жовт.2026 21:47:45.550] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#462 INTENT IDLE -> HUNT reason=hunger_hunt_drive 69.5
+[26жовт.2026 21:47:45.554] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#464 INTENT IDLE -> HUNT reason=hunger_hunt_drive 95.2
+[26жовт.2026 21:47:45.555] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#464 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:47:45.556] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#465 INTENT IDLE -> HUNT reason=hunger_hunt_drive 89.7
+[26жовт.2026 21:47:45.557] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#465 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:47:45.558] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#466 INTENT IDLE -> HUNT reason=hunger_hunt_drive 92.0
+[26жовт.2026 21:47:45.571] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#473 INTENT IDLE -> HUNT reason=hunger_hunt_drive 59.3
+[26жовт.2026 21:47:45.574] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#474 INTENT IDLE -> HUNT reason=hunger_hunt_drive 53.5
+[26жовт.2026 21:47:45.579] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#477 INTENT IDLE -> HUNT reason=hunger_hunt_drive 51.5
+[26жовт.2026 21:47:45.582] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#479 INTENT IDLE -> HUNT reason=hunger_hunt_drive 64.0
+[26жовт.2026 21:47:47.744] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#452 INTENT IDLE -> HUNT reason=hunger_hunt_drive 48.0
+[26жовт.2026 21:47:56.021] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 INTENT FLEE -> HUNT reason=hunger_hunt_drive 99.2
+[26жовт.2026 21:48:07.269] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 DETECTED player d=18.2 awareness=0.68 vision=0.62
+[26жовт.2026 21:48:07.270] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT IDLE -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:48:07.711] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 WAKE proximity_warning
+[26жовт.2026 21:48:08.863] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RETREAT reason=player_pursuing
+[26жовт.2026 21:48:11.762] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RETREAT -> DEFEND reason=player_sprint_charge
+[26жовт.2026 21:48:12.066] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=player_pursuing
+[26жовт.2026 21:48:12.390] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING SPRINT_STEP +8.8 pressure=13.9 d=10.7 occ=1.00
+[26жовт.2026 21:48:16.060] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#282 HEARING LANDING +1.7 pressure=1.7 d=21.2 occ=0.52
+[26жовт.2026 21:48:16.060] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#281 HEARING LANDING +1.4 pressure=1.4 d=21.9 occ=0.52
+[26жовт.2026 21:48:16.060] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#280 HEARING LANDING +1.8 pressure=1.8 d=21.1 occ=0.52
+[26жовт.2026 21:48:16.060] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.1 pressure=13.2 d=7.9 occ=1.00
+[26жовт.2026 21:48:18.438] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RETREAT -> ASSESS reason=human_detected
+[26жовт.2026 21:48:27.418] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=warning_ignored_defense
+[26жовт.2026 21:48:27.623] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:27.667] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:48:28.021] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:28.069] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:48:28.421] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:28.470] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:48:28.826] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:28.875] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:48:28.979] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:48:29.479] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.7 pressure=11.7 d=5.6 occ=1.00
+[26жовт.2026 21:48:29.982] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING STEP +3.0 pressure=12.3 d=4.1 occ=1.00
+[26жовт.2026 21:48:30.727] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING SPRINT_STEP +10.2 pressure=18.9 d=3.1 occ=1.00
+[26жовт.2026 21:48:31.630] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:32.438] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:48:32.964] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 DETECTED player d=51.4 awareness=0.67 vision=0.50
+[26жовт.2026 21:48:32.964] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT IDLE -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:48:33.065] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 WAKE intent_relocate
+[26жовт.2026 21:48:35.044] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:36.421] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:48:37.743] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.8 pressure=100.0 d=5.3 occ=1.00
+[26жовт.2026 21:48:38.066] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:38.336] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.8 pressure=100.0 d=5.2 occ=1.00
+[26жовт.2026 21:48:38.885] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:38.891] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.6 pressure=100.0 d=6.1 occ=1.00
+[26жовт.2026 21:48:39.218] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:39.268] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:48:39.315] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:48:39.491] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.0 pressure=100.0 d=8.4 occ=1.00
+[26жовт.2026 21:48:40.126] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +2.1 pressure=5.4 d=22.8 occ=1.00
+[26жовт.2026 21:48:40.127] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.1 pressure=100.0 d=8.0 occ=1.00
+[26жовт.2026 21:48:40.697] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +5.2 pressure=13.3 d=18.9 occ=1.00
+[26жовт.2026 21:48:40.697] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.5 occ=1.00
+[26жовт.2026 21:48:41.279] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING SPRINT_STEP +6.6 pressure=17.0 d=16.4 occ=1.00
+[26жовт.2026 21:48:41.280] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:41.344] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +7.0 pressure=23.8 d=16.3 occ=1.00
+[26жовт.2026 21:48:41.344] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.7 occ=1.00
+[26жовт.2026 21:48:41.742] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +7.1 pressure=28.9 d=16.1 occ=1.00
+[26жовт.2026 21:48:41.742] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.5 occ=1.00
+[26жовт.2026 21:48:42.433] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +7.0 pressure=32.6 d=16.2 occ=1.00
+[26жовт.2026 21:48:42.433] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.6 pressure=100.0 d=6.1 occ=1.00
+[26жовт.2026 21:48:42.827] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:43.613] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:48:44.510] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:44.540] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.6 pressure=100.0 d=6.3 occ=1.00
+[26жовт.2026 21:48:44.540] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +8.2 pressure=44.8 d=14.2 occ=1.00
+[26жовт.2026 21:48:44.540] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:44.713] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 DETECTED player d=42.5 awareness=0.63 vision=0.54
+[26жовт.2026 21:48:44.714] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT HUNT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:48:44.715] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 DETECTED player d=42.3 awareness=0.62 vision=0.54
+[26жовт.2026 21:48:44.715] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT IDLE -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:48:44.715] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 DETECTED player d=43.2 awareness=0.62 vision=0.54
+[26жовт.2026 21:48:44.716] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT HUNT -> FLEE reason=low_health_flee
+[26жовт.2026 21:48:45.128] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT IDLE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:48:46.229] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 DETECTED player d=37.1 awareness=0.61 vision=0.67
+[26жовт.2026 21:48:46.229] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT HUNT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:48:46.326] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:46.755] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:46.817] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:48:46.912] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:48:46.918] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:46.962] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 WAKE proximity_warning
+[26жовт.2026 21:48:46.963] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:46.965] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:47.618] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT IDLE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:48:47.619] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT HUNT -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:48:47.619] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING SPRINT_STEP +7.7 pressure=12.8 d=14.2 occ=1.00
+[26жовт.2026 21:48:48.170] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT IDLE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:48:48.170] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING SPRINT_STEP +8.5 pressure=18.7 d=11.6 occ=1.00
+[26жовт.2026 21:48:48.170] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:48.460] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:49.155] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:50.011] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:50.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:50.014] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:50.126] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING SPRINT_STEP +8.5 pressure=14.0 d=14.9 occ=1.00
+[26жовт.2026 21:48:50.126] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING SPRINT_STEP +8.6 pressure=14.4 d=14.7 occ=1.00
+[26жовт.2026 21:48:50.126] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:50.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:50.517] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:50.519] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:51.020] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:51.022] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:51.079] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING SPRINT_STEP +10.5 pressure=20.0 d=9.4 occ=1.00
+[26жовт.2026 21:48:51.079] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.080] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING SPRINT_STEP +5.2 pressure=15.1 d=10.8 occ=0.52
+[26жовт.2026 21:48:51.080] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 HEARING SPRINT_STEP +9.5 pressure=13.6 d=12.6 occ=1.00
+[26жовт.2026 21:48:51.081] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING SPRINT_STEP +9.2 pressure=12.8 d=13.2 occ=1.00
+[26жовт.2026 21:48:51.081] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RETREAT reason=human_too_close
+[26жовт.2026 21:48:51.082] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +8.0 pressure=15.7 d=16.5 occ=1.00
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +12.3 pressure=32.3 d=9.2 occ=1.00
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +6.1 pressure=21.1 d=10.7 occ=0.52
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 HEARING LANDING +10.7 pressure=24.4 d=12.4 occ=1.00
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.083] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +11.3 pressure=21.2 d=11.3 occ=1.00
+[26жовт.2026 21:48:51.084] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.084] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +10.4 pressure=23.2 d=13.0 occ=1.00
+[26жовт.2026 21:48:51.084] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.084] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.3 pressure=100.0 d=7.5 occ=1.00
+[26жовт.2026 21:48:51.084] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +8.5 pressure=47.4 d=14.0 occ=1.00
+[26жовт.2026 21:48:51.159] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:51.822] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 DETECTED player d=6.1 awareness=0.47 vision=0.78
+[26жовт.2026 21:48:52.357] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:52.507] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:52.680] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:53.013] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:53.015] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:53.018] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#453 HUNGER satiety=52.0 hunger=45.1
+[26жовт.2026 21:48:53.210] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:53.224] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.277] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +8.9 pressure=47.7 d=15.3 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +12.6 pressure=79.1 d=8.5 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +12.7 pressure=66.5 d=8.1 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 HEARING LANDING +10.5 pressure=64.6 d=12.7 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +11.7 pressure=63.6 d=10.6 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +10.0 pressure=60.9 d=13.6 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.2 pressure=100.0 d=3.2 occ=1.00
+[26жовт.2026 21:48:53.278] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +3.1 pressure=62.9 d=21.6 occ=1.00
+[26жовт.2026 21:48:53.313] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:53.314] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:53.316] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:53.317] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:53.317] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:53.406] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:53.616] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:48:53.930] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.930] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.930] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.930] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:53.931] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:54.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:48:54.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:54.070] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1283 DETECTED player d=42.7 awareness=0.59 vision=0.27
+[26жовт.2026 21:48:54.070] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1283 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:48:54.514] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:48:54.709] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:54.867] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1283 INTENT ASSESS -> RETREAT reason=prey_retreat_score
+[26жовт.2026 21:48:54.907] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:55.071] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:55.405] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:55.457] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:55.675] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +4.8 pressure=69.5 d=20.3 occ=1.00
+[26жовт.2026 21:48:55.675] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +3.6 pressure=80.0 d=21.7 occ=1.00
+[26жовт.2026 21:48:55.675] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +7.7 pressure=95.3 d=17.0 occ=1.00
+[26жовт.2026 21:48:55.676] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +9.3 pressure=100.0 d=14.7 occ=1.00
+[26жовт.2026 21:48:55.676] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.8 pressure=100.0 d=5.3 occ=1.00
+[26жовт.2026 21:48:55.676] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +5.5 pressure=100.0 d=19.5 occ=1.00
+[26жовт.2026 21:48:55.676] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 HEARING LANDING +1.0 pressure=78.4 d=24.1 occ=1.00
+[26жовт.2026 21:48:56.159] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:56.161] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:56.161] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:56.162] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:56.162] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:56.207] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:56.220] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:56.220] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:56.220] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:56.220] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:56.222] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:56.274] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1285 DETECTED player d=40.1 awareness=0.62 vision=0.44
+[26жовт.2026 21:48:56.275] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1285 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:48:56.329] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 DETECTED player d=39.4 awareness=0.62 vision=0.43
+[26жовт.2026 21:48:56.330] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:48:56.466] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1283 INTENT RETREAT -> ASSESS reason=prey_assess
+[26жовт.2026 21:48:56.509] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:56.510] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:48:56.511] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:57.315] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:57.470] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:57.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:57.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:57.562] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:58.016] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:58.209] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:58.460] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:58.462] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:58.462] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:58.464] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:58.465] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:58.513] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:48:58.514] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:48:58.565] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:58.567] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT FLEE -> HUNT reason=hunger_hunt_drive 98.5
+[26жовт.2026 21:48:58.714] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:58.760] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:59.118] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT HUNT -> FLEE reason=low_health_flee
+[26жовт.2026 21:48:59.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:48:59.517] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:59.518] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:59.519] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:59.567] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:59.569] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:59.712] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:48:59.714] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:48:59.765] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:59.818] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:48:59.912] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:squid#1304 HEARING LANDING +1.6 pressure=1.6 d=21.5 occ=0.52
+[26жовт.2026 21:48:59.913] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +3.8 pressure=89.2 d=21.4 occ=1.00
+[26жовт.2026 21:48:59.913] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:48:59.913] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.1 pressure=100.0 d=3.4 occ=1.00
+[26жовт.2026 21:49:00.043] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:00.215] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:00.817] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:00.828] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1285 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:01.022] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:01.413] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:01.712] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:01.817] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:01.819] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:02.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:02.064] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:02.775] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +2.4 pressure=77.4 d=22.8 occ=1.00
+[26жовт.2026 21:49:02.775] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:02.776] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:squid#1304 HEARING LANDING +2.3 pressure=2.3 d=20.0 occ=0.52
+[26жовт.2026 21:49:02.776] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.0 pressure=100.0 d=4.2 occ=1.00
+[26жовт.2026 21:49:04.007] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:04.209] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:04.210] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:04.263] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:04.266] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:04.994] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:05.020] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:05.024] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:05.025] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:05.035] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1283 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:05.073] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:05.224] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:05.282] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:05.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:05.880] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:05.882] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +1.4 pressure=45.8 d=23.8 occ=1.00
+[26жовт.2026 21:49:05.883] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +4.4 pressure=42.5 d=20.8 occ=1.00
+[26жовт.2026 21:49:05.883] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +0.9 pressure=66.9 d=24.4 occ=1.00
+[26жовт.2026 21:49:05.883] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:squid#1304 HEARING LANDING +1.3 pressure=3.2 d=22.3 occ=0.52
+[26жовт.2026 21:49:05.883] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +1.9 pressure=63.1 d=23.3 occ=1.00
+[26жовт.2026 21:49:05.883] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.5 occ=1.00
+[26жовт.2026 21:49:06.016] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:06.063] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:06.509] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:06.511] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:06.522] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:06.523] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:06.716] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:06.926] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1212 DETECTED player d=46.1 awareness=0.64 vision=0.45
+[26жовт.2026 21:49:06.927] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1212 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:07.015] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:07.017] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:07.017] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:07.057] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT FLEE -> IDLE reason=recover_before_hunt
+[26жовт.2026 21:49:07.109] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT IDLE -> FLEE reason=low_health_flee
+[26жовт.2026 21:49:07.213] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:07.214] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:07.216] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:07.348] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:07.392] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1261 DETECTED player d=45.8 awareness=0.68 vision=0.51
+[26жовт.2026 21:49:07.392] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1261 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:07.514] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:07.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:07.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:07.521] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 DETECTED player d=51.0 awareness=0.58 vision=0.44
+[26жовт.2026 21:49:07.522] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:07.560] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:07.562] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:07.674] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1197 DETECTED player d=49.7 awareness=0.68 vision=0.55
+[26жовт.2026 21:49:07.674] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1197 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:07.677] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1281 DETECTED player d=46.8 awareness=0.66 vision=0.52
+[26жовт.2026 21:49:07.677] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1281 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:07.714] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:07.717] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:07.775] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1285 DETECTED player d=52.0 awareness=0.59 vision=0.49
+[26жовт.2026 21:49:07.775] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1285 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:08.123] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +6.2 pressure=51.9 d=18.8 occ=1.00
+[26жовт.2026 21:49:08.124] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +1.5 pressure=45.7 d=22.3 occ=0.52
+[26жовт.2026 21:49:08.124] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +0.9 pressure=65.0 d=23.4 occ=0.52
+[26жовт.2026 21:49:08.124] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +2.9 pressure=100.0 d=21.9 occ=1.00
+[26жовт.2026 21:49:08.473] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:08.602] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +0.9 pressure=3.0 d=24.2 occ=1.00
+[26жовт.2026 21:49:08.602] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +2.6 pressure=54.0 d=20.1 occ=0.52
+[26жовт.2026 21:49:08.602] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +1.2 pressure=45.4 d=22.8 occ=0.52
+[26жовт.2026 21:49:08.771] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:08.772] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:08.782] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1264 DETECTED player d=48.5 awareness=0.65 vision=0.51
+[26жовт.2026 21:49:08.782] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1264 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:08.879] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1263 DETECTED player d=35.6 awareness=0.67 vision=0.73
+[26жовт.2026 21:49:08.879] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1263 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:08.978] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1282 DETECTED player d=51.6 awareness=0.66 vision=0.38
+[26жовт.2026 21:49:08.979] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1282 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:09.220] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:09.221] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:09.222] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +2.6 pressure=6.7 d=22.6 occ=1.00
+[26жовт.2026 21:49:09.222] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +2.3 pressure=55.7 d=20.7 occ=0.52
+[26жовт.2026 21:49:09.222] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +1.2 pressure=45.3 d=22.9 occ=0.52
+[26жовт.2026 21:49:09.222] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +0.9 pressure=63.4 d=24.4 occ=1.00
+[26жовт.2026 21:49:09.809] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:09.810] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:09.825] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:09.828] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +3.6 pressure=12.2 d=21.6 occ=1.00
+[26жовт.2026 21:49:09.828] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +0.8 pressure=45.0 d=23.6 occ=0.52
+[26жовт.2026 21:49:09.829] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +1.4 pressure=56.4 d=22.5 occ=0.52
+[26жовт.2026 21:49:10.298] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 DETECTED player d=36.0 awareness=0.59 vision=0.68
+[26жовт.2026 21:49:10.298] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 INTENT HUNT -> RETREAT reason=low_health_retreat
+[26жовт.2026 21:49:10.405] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING SPRINT_STEP +5.7 pressure=15.2 d=20.3 occ=1.00
+[26жовт.2026 21:49:10.407] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +4.9 pressure=20.1 d=20.2 occ=1.00
+[26жовт.2026 21:49:10.925] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:11.031] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +3.3 pressure=23.7 d=18.7 occ=0.52
+[26жовт.2026 21:49:11.468] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:11.470] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:11.626] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +4.7 pressure=31.0 d=20.5 occ=1.00
+[26жовт.2026 21:49:12.063] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:12.417] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +3.2 pressure=30.4 d=22.0 occ=1.00
+[26жовт.2026 21:49:12.911] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:13.260] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:lobster#1144 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:13.410] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:15.165] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:15.471] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:15.471] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:15.491] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +2.4 pressure=26.6 d=22.8 occ=1.00
+[26жовт.2026 21:49:15.491] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +1.8 pressure=21.1 d=23.3 occ=1.00
+[26жовт.2026 21:49:15.975] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:15.977] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +4.5 pressure=34.0 d=20.7 occ=1.00
+[26жовт.2026 21:49:15.977] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +0.9 pressure=34.1 d=24.3 occ=1.00
+[26жовт.2026 21:49:15.977] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 HEARING LANDING +3.0 pressure=25.9 d=22.3 occ=1.00
+[26жовт.2026 21:49:16.364] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:cod#1263 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:17.160] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:17.704] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:17.705] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:18.209] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:18.462] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:18.718] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:18.756] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:19.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:20.709] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:21.017] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:22.170] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:22.514] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:22.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:23.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:23.512] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:23.567] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:octopoteuthis#1068 INTENT IDLE -> FLEE reason=prey_escape_score
+[26жовт.2026 21:49:23.663] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 INTENT IDLE -> HUNT reason=hunger_hunt_drive 48.0
+[26жовт.2026 21:49:23.714] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:23.765] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 56.6
+[26жовт.2026 21:49:23.914] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 49.7
+[26жовт.2026 21:49:23.916] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 55.3
+[26жовт.2026 21:49:24.019] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:24.165] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:24.211] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:24.363] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 INTENT RETREAT -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:49:24.511] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:25.711] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:25.813] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:26.415] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:28.411] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:28.457] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT FLEE -> IDLE reason=recover_before_hunt
+[26жовт.2026 21:49:30.570] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 DETECTED player d=11.8 awareness=0.63 vision=0.81
+[26жовт.2026 21:49:30.571] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT IDLE -> ASSESS reason=human_detected
+[26жовт.2026 21:49:31.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 DETECTED player d=17.6 awareness=0.59 vision=0.60
+[26жовт.2026 21:49:31.013] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT HUNT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:31.567] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ASSESS -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:31.706] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 DETECTED player d=17.2 awareness=0.79 vision=0.83
+[26жовт.2026 21:49:31.706] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT HUNT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:31.712] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:fox#437 INTENT IDLE -> ASSESS reason=prey_assess
+[26жовт.2026 21:49:31.712] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT HUNT -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:49:31.712] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT IDLE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:49:32.305] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 DETECTED player d=44.9 awareness=0.70 vision=0.73
+[26жовт.2026 21:49:32.306] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT IDLE -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:32.360] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 DETECTED player d=53.5 awareness=0.72 vision=0.71
+[26жовт.2026 21:49:32.360] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT IDLE -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:32.412] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 DETECTED player d=19.0 awareness=0.70 vision=0.90
+[26жовт.2026 21:49:32.413] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:32.521] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 DETECTED player d=42.8 awareness=0.62 vision=0.47
+[26жовт.2026 21:49:32.521] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT IDLE -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:32.581] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING SPRINT_STEP +8.9 pressure=13.1 d=10.2 occ=1.00
+[26жовт.2026 21:49:32.582] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING SPRINT_STEP +9.5 pressure=13.9 d=12.6 occ=1.00
+[26жовт.2026 21:49:32.582] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING SPRINT_STEP +10.1 pressure=13.7 d=10.9 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +10.2 pressure=23.4 d=10.4 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:fox#437 HEARING LANDING +7.0 pressure=17.0 d=17.6 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +9.4 pressure=20.3 d=14.6 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +10.7 pressure=24.6 d=12.4 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +11.6 pressure=25.4 d=10.8 occ=1.00
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:32.584] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +6.8 pressure=13.6 d=18.1 occ=1.00
+[26жовт.2026 21:49:32.666] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 DETECTED player d=55.7 awareness=0.68 vision=0.67
+[26жовт.2026 21:49:32.667] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 INTENT HUNT -> RETREAT reason=low_health_retreat
+[26жовт.2026 21:49:32.916] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:32.993] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:33.106] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:33.173] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING SPRINT_STEP +4.1 pressure=14.9 d=16.0 occ=0.52
+[26жовт.2026 21:49:33.174] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +10.4 pressure=40.0 d=10.0 occ=1.00
+[26жовт.2026 21:49:33.175] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:fox#437 HEARING LANDING +4.4 pressure=23.9 d=20.7 occ=1.00
+[26жовт.2026 21:49:33.175] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +10.2 pressure=36.8 d=13.3 occ=1.00
+[26жовт.2026 21:49:33.175] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +11.2 pressure=42.7 d=11.7 occ=1.00
+[26жовт.2026 21:49:33.175] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +12.0 pressure=44.8 d=10.0 occ=1.00
+[26жовт.2026 21:49:33.175] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +4.4 pressure=19.3 d=15.9 occ=0.52
+[26жовт.2026 21:49:33.258] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:33.718] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:33.777] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +10.1 pressure=56.1 d=10.6 occ=1.00
+[26жовт.2026 21:49:33.777] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ATTACK -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:33.778] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:fox#437 HEARING LANDING +0.8 pressure=24.9 d=24.3 occ=1.00
+[26жовт.2026 21:49:33.778] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +10.6 pressure=54.0 d=12.6 occ=1.00
+[26жовт.2026 21:49:33.778] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +11.5 pressure=61.3 d=11.0 occ=1.00
+[26жовт.2026 21:49:33.778] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +11.7 pressure=63.8 d=10.6 occ=1.00
+[26жовт.2026 21:49:33.778] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +5.0 pressure=25.9 d=14.3 occ=0.52
+[26жовт.2026 21:49:33.821] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT RELOCATE -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:33.957] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:34.364] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:34.366] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.4 pressure=71.0 d=12.2 occ=1.00
+[26жовт.2026 21:49:34.366] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +10.1 pressure=77.7 d=13.5 occ=1.00
+[26жовт.2026 21:49:34.366] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +10.8 pressure=81.3 d=12.4 occ=1.00
+[26жовт.2026 21:49:34.366] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +4.7 pressure=32.1 d=15.2 occ=0.52
+[26жовт.2026 21:49:34.366] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +10.8 pressure=71.5 d=12.3 occ=1.00
+[26жовт.2026 21:49:34.414] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RETREAT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:34.661] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:34.810] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:34.856] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 INTENT IDLE -> HUNT reason=hunger_hunt_drive 98.5
+[26жовт.2026 21:49:34.911] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 DETECTED player d=15.1 awareness=0.59 vision=0.96
+[26жовт.2026 21:49:34.912] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:34.921] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:34.971] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.4 pressure=85.9 d=12.2 occ=1.00
+[26жовт.2026 21:49:34.971] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +7.7 pressure=90.1 d=17.0 occ=1.00
+[26жовт.2026 21:49:34.971] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +8.9 pressure=95.7 d=15.3 occ=1.00
+[26жовт.2026 21:49:34.971] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +3.8 pressure=36.8 d=17.4 occ=0.52
+[26жовт.2026 21:49:34.971] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +9.9 pressure=87.6 d=13.8 occ=1.00
+[26жовт.2026 21:49:35.008] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RETREAT -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:35.015] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:fox#437 INTENT ASSESS -> IDLE reason=calm
+[26жовт.2026 21:49:35.307] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:35.541] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 HEARING LANDING +3.2 pressure=90.7 d=22.0 occ=1.00
+[26жовт.2026 21:49:35.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +5.5 pressure=98.6 d=19.6 occ=1.00
+[26жовт.2026 21:49:35.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.3 pressure=92.6 d=12.4 occ=1.00
+[26жовт.2026 21:49:35.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 HEARING LANDING +3.2 pressure=37.4 d=22.0 occ=1.00
+[26жовт.2026 21:49:35.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +7.8 pressure=92.7 d=16.9 occ=1.00
+[26жовт.2026 21:49:35.966] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:36.164] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:36.165] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT IDLE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:49:36.272] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.6 pressure=100.0 d=11.8 occ=1.00
+[26жовт.2026 21:49:36.272] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 HEARING LANDING +0.9 pressure=99.2 d=24.4 occ=1.00
+[26жовт.2026 21:49:36.272] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +5.4 pressure=100.0 d=19.7 occ=1.00
+[26жовт.2026 21:49:36.272] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +0.7 pressure=2.5 d=24.7 occ=1.00
+[26жовт.2026 21:49:36.869] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:36.871] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.8 pressure=100.0 d=11.3 occ=1.00
+[26жовт.2026 21:49:36.871] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +3.3 pressure=100.0 d=21.9 occ=1.00
+[26жовт.2026 21:49:36.872] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +3.9 pressure=8.5 d=20.7 occ=1.00
+[26жовт.2026 21:49:37.161] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:37.162] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:37.208] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:37.510] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.5 pressure=100.0 d=12.0 occ=1.00
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 HEARING LANDING +0.9 pressure=100.0 d=24.8 occ=1.00
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +6.8 pressure=18.4 d=16.8 occ=1.00
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +1.3 pressure=4.1 d=23.6 occ=1.00
+[26жовт.2026 21:49:37.572] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +0.9 pressure=3.1 d=24.9 occ=1.00
+[26жовт.2026 21:49:37.818] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ATTACK -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:37.968] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ASSESS -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:38.143] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +8.1 pressure=100.0 d=14.7 occ=1.00
+[26жовт.2026 21:49:38.143] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +8.6 pressure=24.4 d=13.7 occ=1.00
+[26жовт.2026 21:49:38.143] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +4.8 pressure=6.3 d=19.6 occ=1.00
+[26жовт.2026 21:49:38.143] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +3.1 pressure=3.6 d=22.1 occ=1.00
+[26жовт.2026 21:49:38.206] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:38.312] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:38.408] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:38.725] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING SPRINT_STEP +7.0 pressure=15.7 d=15.8 occ=1.00
+[26жовт.2026 21:49:38.725] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:38.775] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +8.4 pressure=100.0 d=14.2 occ=1.00
+[26жовт.2026 21:49:38.776] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.0 pressure=47.8 d=10.9 occ=1.00
+[26жовт.2026 21:49:38.776] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +7.5 pressure=23.0 d=15.7 occ=1.00
+[26жовт.2026 21:49:38.776] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +5.4 pressure=16.5 d=19.7 occ=1.00
+[26жовт.2026 21:49:39.342] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +8.2 pressure=100.0 d=14.5 occ=1.00
+[26жовт.2026 21:49:39.342] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.0 pressure=56.2 d=8.4 occ=1.00
+[26жовт.2026 21:49:39.342] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +8.9 pressure=29.2 d=13.3 occ=1.00
+[26жовт.2026 21:49:39.342] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +5.1 pressure=19.0 d=20.0 occ=1.00
+[26жовт.2026 21:49:39.721] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 DETECTED player d=7.6 awareness=0.64 vision=1.15
+[26жовт.2026 21:49:39.810] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> DEFEND reason=player_sprint_charge
+[26жовт.2026 21:49:39.915] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:49:39.959] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:49:39.965] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +7.7 pressure=100.0 d=15.4 occ=1.00
+[26жовт.2026 21:49:39.965] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.4 pressure=83.5 d=6.8 occ=1.00
+[26жовт.2026 21:49:39.965] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:49:39.965] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +9.7 pressure=52.3 d=11.6 occ=1.00
+[26жовт.2026 21:49:39.966] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +3.5 pressure=30.0 d=21.7 occ=1.00
+[26жовт.2026 21:49:40.011] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:49:40.120] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:40.160] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:40.508] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:40.541] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +7.6 pressure=100.0 d=15.6 occ=1.00
+[26жовт.2026 21:49:40.541] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.0 pressure=92.9 d=4.6 occ=1.00
+[26жовт.2026 21:49:40.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +10.2 pressure=59.9 d=10.5 occ=1.00
+[26жовт.2026 21:49:40.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +1.2 pressure=28.6 d=23.9 occ=1.00
+[26жовт.2026 21:49:40.859] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 DETECTED player d=52.2 awareness=0.58 vision=0.74
+[26жовт.2026 21:49:40.859] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT IDLE -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:41.269] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +8.4 pressure=100.0 d=14.1 occ=1.00
+[26жовт.2026 21:49:41.269] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.1 pressure=100.0 d=3.8 occ=1.00
+[26жовт.2026 21:49:41.269] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 HEARING LANDING +1.0 pressure=32.1 d=24.1 occ=1.00
+[26жовт.2026 21:49:41.269] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +11.0 pressure=85.5 d=8.2 occ=1.00
+[26жовт.2026 21:49:41.675] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:41.726] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.7 pressure=100.0 d=5.7 occ=1.00
+[26жовт.2026 21:49:41.727] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +8.7 pressure=100.0 d=13.6 occ=1.00
+[26жовт.2026 21:49:41.727] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +11.6 pressure=100.0 d=6.2 occ=1.00
+[26жовт.2026 21:49:42.168] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ATTACK -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:42.363] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT RETREAT -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:42.368] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.6 pressure=100.0 d=6.2 occ=1.00
+[26жовт.2026 21:49:42.368] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +9.0 pressure=100.0 d=13.1 occ=1.00
+[26жовт.2026 21:49:42.368] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +11.5 pressure=100.0 d=6.6 occ=1.00
+[26жовт.2026 21:49:42.525] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:42.769] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:42.805] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:42.859] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#283 INTENT RETREAT -> HUNT reason=hunger_hunt_drive 100.0
+[26жовт.2026 21:49:42.910] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:49:43.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:43.059] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:43.107] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:43.213] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RETREAT -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:43.310] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:43.509] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:44.506] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:44.806] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:44.821] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:49:44.875] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT DEFEND -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:45.008] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:45.009] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:45.108] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:45.262] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:45.308] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:45.309] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:45.313] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:45.508] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:45.556] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:46.223] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.2 pressure=100.0 d=3.3 occ=1.00
+[26жовт.2026 21:49:46.223] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +12.3 pressure=100.0 d=1.8 occ=1.00
+[26жовт.2026 21:49:46.224] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 HEARING LANDING +2.0 pressure=100.0 d=22.9 occ=1.00
+[26жовт.2026 21:49:46.323] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:47.013] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:47.114] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:49:47.119] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.2 pressure=100.0 d=2.6 occ=1.00
+[26жовт.2026 21:49:47.119] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +12.3 pressure=100.0 d=1.7 occ=1.00
+[26жовт.2026 21:49:47.356] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:47.709] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:49:47.808] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:48.107] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RETREAT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:48.259] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:48.505] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RETREAT -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:48.566] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.2 pressure=100.0 d=2.9 occ=1.00
+[26жовт.2026 21:49:48.566] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +12.2 pressure=100.0 d=2.7 occ=1.00
+[26жовт.2026 21:49:49.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:49.060] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:49.167] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.7 pressure=100.0 d=5.7 occ=1.00
+[26жовт.2026 21:49:49.167] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +11.9 pressure=100.0 d=4.7 occ=1.00
+[26жовт.2026 21:49:49.311] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:49.358] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:49.505] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:49.742] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +11.2 pressure=100.0 d=7.5 occ=1.00
+[26жовт.2026 21:49:49.742] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT DEFEND -> RETREAT reason=player_pursuing
+[26жовт.2026 21:49:49.742] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.2 pressure=100.0 d=7.8 occ=1.00
+[26жовт.2026 21:49:49.912] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HUNGER satiety=70.0 hunger=31.6
+[26жовт.2026 21:49:50.008] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:50.009] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:50.055] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:50.191] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +10.1 pressure=100.0 d=10.8 occ=1.00
+[26жовт.2026 21:49:50.191] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.6 occ=1.00
+[26жовт.2026 21:49:50.207] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:50.259] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:50.263] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:50.810] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:50.842] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +7.5 pressure=100.0 d=15.6 occ=1.00
+[26жовт.2026 21:49:50.842] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.5 pressure=100.0 d=9.7 occ=1.00
+[26жовт.2026 21:49:50.843] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:50.859] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:51.006] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:51.006] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:51.011] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:51.306] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:51.469] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 HEARING LANDING +4.1 pressure=100.0 d=20.5 occ=1.00
+[26жовт.2026 21:49:51.469] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.8 pressure=100.0 d=11.4 occ=1.00
+[26жовт.2026 21:49:52.021] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=heard_player_assess
+[26жовт.2026 21:49:52.069] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.8 pressure=100.0 d=11.3 occ=1.00
+[26жовт.2026 21:49:52.070] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +0.7 pressure=2.8 d=24.5 occ=1.00
+[26жовт.2026 21:49:52.314] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:52.545] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> ASSESS reason=confident_pack_hold_player_ratio
+[26жовт.2026 21:49:52.547] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:52.755] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT RELOCATE -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:52.765] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.9 pressure=100.0 d=11.1 occ=1.00
+[26жовт.2026 21:49:52.766] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +4.5 pressure=9.1 d=19.9 occ=1.00
+[26жовт.2026 21:49:53.008] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:53.368] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT RETREAT -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:53.373] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING SPRINT_STEP +6.7 pressure=12.9 d=16.3 occ=1.00
+[26жовт.2026 21:49:53.374] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.7 occ=1.00
+[26жовт.2026 21:49:53.374] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +7.1 pressure=20.0 d=16.0 occ=1.00
+[26жовт.2026 21:49:53.375] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:53.512] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:49:53.941] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.7 occ=1.00
+[26жовт.2026 21:49:53.941] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +8.7 pressure=33.8 d=13.3 occ=1.00
+[26жовт.2026 21:49:54.516] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:49:54.517] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:54.542] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.6 occ=1.00
+[26жовт.2026 21:49:54.543] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +9.6 pressure=40.6 d=11.3 occ=1.00
+[26жовт.2026 21:49:55.115] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> ASSESS reason=human_detected
+[26жовт.2026 21:49:55.168] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.8 pressure=100.0 d=9.0 occ=1.00
+[26жовт.2026 21:49:55.168] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +9.8 pressure=56.5 d=10.9 occ=1.00
+[26жовт.2026 21:49:55.218] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=player_sprint_charge
+[26жовт.2026 21:49:55.509] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 57.0
+[26жовт.2026 21:49:55.509] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:55.510] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:55.713] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:49:55.760] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> DEFEND reason=predator_defend_commitment
+[26жовт.2026 21:49:55.765] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ASSESS reason=human_detected
+[26жовт.2026 21:49:55.766] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.6 pressure=100.0 d=11.9 occ=1.00
+[26жовт.2026 21:49:55.766] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +10.3 pressure=72.8 d=9.7 occ=1.00
+[26жовт.2026 21:49:55.810] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:49:55.817] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:56.167] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> RETREAT reason=human_too_close
+[26жовт.2026 21:49:56.219] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.4 pressure=100.0 d=12.2 occ=1.00
+[26жовт.2026 21:49:56.219] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +10.7 pressure=90.5 d=8.3 occ=1.00
+[26жовт.2026 21:49:56.868] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.3 pressure=100.0 d=12.4 occ=1.00
+[26жовт.2026 21:49:56.868] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +10.3 pressure=100.0 d=9.6 occ=1.00
+[26жовт.2026 21:49:56.868] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RETREAT -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:49:57.032] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:57.067] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 55.8
+[26жовт.2026 21:49:57.207] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:49:57.259] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT ASSESS -> RELOCATE reason=human_detected_relocate
+[26жовт.2026 21:49:57.272] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +9.4 pressure=100.0 d=12.2 occ=1.00
+[26жовт.2026 21:49:57.273] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +9.7 pressure=100.0 d=11.2 occ=1.00
+[26жовт.2026 21:49:57.310] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:57.507] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=1 adults=1 confidence=0.00 offspringNearby=false defendRange=4.8
+[26жовт.2026 21:49:58.157] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 DETECTED player d=39.9 awareness=0.59 vision=0.32
+[26жовт.2026 21:49:58.157] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 INTENT HUNT -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:49:58.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:49:58.568] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:49:59.210] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:49:59.257] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 INTENT RELOCATE -> HUNT reason=hunger_hunt_drive 50.2
+[26жовт.2026 21:49:59.614] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.3 pressure=100.0 d=1.9 occ=1.00
+[26жовт.2026 21:49:59.614] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +5.5 pressure=96.2 d=18.4 occ=1.00
+[26жовт.2026 21:49:59.762] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 DETECTED player d=61.0 awareness=0.95 vision=0.51
+[26жовт.2026 21:50:00.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:00.416] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 HEARING LANDING +0.7 pressure=95.3 d=24.8 occ=1.00
+[26жовт.2026 21:50:00.416] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +12.1 pressure=100.0 d=3.3 occ=1.00
+[26жовт.2026 21:50:00.518] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:00.809] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> DEFEND reason=species_close_defense
+[26жовт.2026 21:50:00.992] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.9 pressure=100.0 d=4.7 occ=1.00
+[26жовт.2026 21:50:01.208] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:50:01.319] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=persistent_pursuit_close
+[26жовт.2026 21:50:01.507] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:01.621] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.4 pressure=100.0 d=6.9 occ=1.00
+[26жовт.2026 21:50:01.817] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:01.910] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:02.132] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#494 INTENT IDLE -> HUNT reason=hunger_hunt_drive 60.9
+[26жовт.2026 21:50:02.133] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:wolf#494 SOCIAL total=1 adults=0 confidence=0.00 offspringNearby=false defendRange=4.0
+[26жовт.2026 21:50:02.200] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.2 pressure=100.0 d=7.8 occ=1.00
+[26жовт.2026 21:50:02.718] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:50:02.794] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.9 pressure=100.0 d=8.7 occ=1.00
+[26жовт.2026 21:50:03.014] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:03.015] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:50:03.308] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:03.619] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.6 occ=1.00
+[26жовт.2026 21:50:03.725] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=5 adults=5 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:03.968] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:04.040] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.6 occ=1.00
+[26жовт.2026 21:50:04.206] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=4 adults=4 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:04.630] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.3 pressure=100.0 d=10.3 occ=1.00
+[26жовт.2026 21:50:05.193] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.2 pressure=100.0 d=10.6 occ=1.00
+[26жовт.2026 21:50:05.728] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RETREAT reason=player_pursuing
+[26жовт.2026 21:50:05.815] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RETREAT -> ATTACK reason=chase_reflex_fleeing_player
+[26жовт.2026 21:50:05.822] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.4 pressure=100.0 d=9.9 occ=1.00
+[26жовт.2026 21:50:06.159] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:06.428] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.8 occ=1.00
+[26жовт.2026 21:50:07.025] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.0 pressure=100.0 d=11.0 occ=1.00
+[26жовт.2026 21:50:07.313] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#234 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:50:07.511] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:50:07.633] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.1 pressure=100.0 d=10.7 occ=1.00
+[26жовт.2026 21:50:08.010] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=2 adults=2 confidence=0.33 offspringNearby=false defendRange=5.6
+[26жовт.2026 21:50:08.079] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.2 pressure=100.0 d=10.4 occ=1.00
+[26жовт.2026 21:50:08.160] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:08.721] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.6 pressure=100.0 d=9.5 occ=1.00
+[26жовт.2026 21:50:09.334] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.5 pressure=100.0 d=9.8 occ=1.00
+[26жовт.2026 21:50:09.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=3 adults=3 confidence=0.67 offspringNearby=false defendRange=6.5
+[26жовт.2026 21:50:09.729] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +10.3 pressure=100.0 d=10.3 occ=1.00
+[26жовт.2026 21:50:10.117] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RETREAT reason=player_pursuing
+[26жовт.2026 21:50:10.212] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#265 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:10.510] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#266 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:10.511] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:10.805] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#267 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:11.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:11.012] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#271 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:12.282] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#1594 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:50:13.156] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:13.492] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +4.0 pressure=100.0 d=20.6 occ=1.00
+[26жовт.2026 21:50:13.492] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RETREAT -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:13.515] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=6 adults=6 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:14.009] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#270 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:15.013] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#268 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:15.013] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:hyena#269 SOCIAL total=7 adults=7 confidence=1.00 offspringNearby=false defendRange=7.3
+[26жовт.2026 21:50:15.155] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:16.911] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 INTENT ASSESS -> HUNT reason=hunger_hunt_drive 48.8
+[26жовт.2026 21:50:17.403] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:18.517] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:19.075] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:20.653] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:black_bear#171 INTENT ASSESS -> IDLE reason=satiated_no_hunt
+[26жовт.2026 21:50:21.342] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.3 pressure=100.0 d=7.5 occ=1.00
+[26жовт.2026 21:50:22.216] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> RETREAT reason=human_too_close
+[26жовт.2026 21:50:23.893] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.5 pressure=100.0 d=6.6 occ=1.00
+[26жовт.2026 21:50:24.463] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.7 pressure=100.0 d=5.7 occ=1.00
+[26жовт.2026 21:50:24.571] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RETREAT -> DEFEND reason=species_close_defense
+[26жовт.2026 21:50:26.909] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT DEFEND -> RETREAT reason=human_too_close
+[26жовт.2026 21:50:27.117] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.4 pressure=100.0 d=7.1 occ=1.00
+[26жовт.2026 21:50:27.773] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:31.263] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.7 pressure=100.0 d=6.0 occ=1.00
+[26жовт.2026 21:50:31.263] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> RETREAT reason=human_too_close
+[26жовт.2026 21:50:33.159] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 DETECTED player d=58.2 awareness=0.64 vision=0.68
+[26жовт.2026 21:50:33.160] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 INTENT HUNT -> ASSESS reason=human_detected_hold_ground
+[26жовт.2026 21:50:33.242] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.9 pressure=100.0 d=4.9 occ=1.00
+[26жовт.2026 21:50:33.941] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +11.1 pressure=100.0 d=8.0 occ=1.00
+[26жовт.2026 21:50:33.941] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ATTACK -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:37.492] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +6.1 pressure=97.6 d=17.8 occ=1.00
+[26жовт.2026 21:50:38.121] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +3.6 pressure=100.0 d=21.0 occ=1.00
+[26жовт.2026 21:50:38.962] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:40.015] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT ASSESS -> RELOCATE reason=heard_player_relocate
+[26жовт.2026 21:50:40.016] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 HEARING LANDING +5.3 pressure=100.0 d=18.9 occ=1.00
+[26жовт.2026 21:50:41.557] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 DETECTED player d=52.1 awareness=0.74 vision=0.62
+[26жовт.2026 21:50:41.760] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 DETECTED player d=45.5 awareness=0.65 vision=0.66
+[26жовт.2026 21:50:41.760] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#164 INTENT HUNT -> FLEE reason=low_health_flee
+[26жовт.2026 21:50:42.260] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#776 INTENT RELOCATE -> ASSESS reason=relocate_cooldown_hold_ground
+[26жовт.2026 21:50:42.360] [Server thread/INFO] [net.minecraft.server.LoggedPrintStream/]: [STDOUT]: [TFC-WILDLIFE-AI] tfc:grizzly_bear#189 INTENT ASSESS -> RETREAT reason=player_pursuing

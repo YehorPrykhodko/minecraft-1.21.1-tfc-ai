@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "tfc_wildlife_ai"
+version = "2.0.0-alpha3.24"
+displayName = "TFC Wildlife AI Remaster"
+authors = "Y P + ChatGPT"
+description = "Hyena pack aggression based on player HP below 70%, solo hyena predation based on hunger; pack alarm coordination and grizzly charge stability. Diagnostics retained."
+
+[[mixins]]
+config = "tfc_wildlife_ai.mixins.json"
+
+[[dependencies.tfc_wildlife_ai]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.235]"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfc_wildlife_ai]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfc_wildlife_ai]]
+modId = "tfc"
+type = "required"
+versionRange = "[4.2.6,4.3)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfc_wildlife_ai]]
+modId = "tacz"
+type = "required"
+versionRange = "[1.1.8,1.2)"
+ordering = "AFTER"
+side = "BOTH"

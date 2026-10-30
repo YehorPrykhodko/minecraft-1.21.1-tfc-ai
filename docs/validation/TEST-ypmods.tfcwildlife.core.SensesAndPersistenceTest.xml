@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ypmods.tfcwildlife.core.SensesAndPersistenceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-30T16:07:03.135Z" hostname="74e43215cc01" time="0.027">
+  <properties/>
+  <testcase name="repeatedSoundsAreDeduplicatedButDistinctShootersAreNot()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.001"/>
+  <testcase name="personalityIsStableAndIndividual()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.005"/>
+  <testcase name="gunshotOcclusionAndDistanceAttenuateFear()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.0"/>
+  <testcase name="petsLivestockAndMarineAnimalsRemainOutsideManagedSet()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.0"/>
+  <testcase name="closeLoudShotCanCauseRealPanic()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.001"/>
+  <testcase name="legacyVitalsMigrateReadOnlyAndClampCorruptValues()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.008"/>
+  <testcase name="speedDoesNotStackAttributeAndNavigationModifiers()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.001"/>
+  <testcase name="feedingAndRestRecoverResources()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.0"/>
+  <testcase name="visionRequiresLosAndFovAndRange()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.0"/>
+  <testcase name="currentVitalsUseNormalizedScaleAndFearDoesNotPersistAcrossReload()" classname="ypmods.tfcwildlife.core.SensesAndPersistenceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

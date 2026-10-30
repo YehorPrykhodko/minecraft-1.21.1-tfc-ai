@@ -1,0 +1,611 @@
+===== ypmods.tfcwildlife.TFCWildlifeAI =====
+Compiled from "TFCWildlifeAI.java"
+public final class ypmods.tfcwildlife.TFCWildlifeAI {
+  public static final java.lang.String MOD_ID;
+  public static final java.lang.String VERSION;
+  private static final int PASSIVE_SCAN_INTERVAL;
+  private static final int PASSIVE_SCAN_ACTIVE;
+  private static final int PASSIVE_SCAN_IDLE;
+  private static final int ACTIVE_TICK_INTERVAL;
+  private static final int ACTIVE_TICK_IDLE;
+  private static final int PATH_RETRY_RETREAT;
+  private static final int PATH_RETRY_FLEE;
+  private static final int STATE_PURGE_INTERVAL;
+  private static final int STATE_STALE_AFTER;
+  private static final int DEBUG_PUSH_INTERVAL;
+  private static final double PACK_PERSONAL_SPACE;
+  private static final double PACK_ASSIST_RADIUS;
+  private static final int PACK_DEFEND_TICKS;
+  private static final int SOCIAL_SCAN_INTERVAL;
+  private static final int SOCIAL_SCAN_IDLE;
+  private static final int PERSIST_WRITE_INTERVAL;
+  private static final java.lang.String PERSIST_VERSION_KEY;
+  private static final java.lang.String PERSIST_SATIETY_KEY;
+  private static final java.lang.String PERSIST_STAMINA_KEY;
+  private static final double PARENT_GUARD_RADIUS;
+  private static final double PACK_CONFIDENCE_ATTACK_BONUS;
+  private static final double PACK_CONFIDENCE_ESCAPE_REDUCTION;
+  private static final double PARENT_GUARD_ATTACK_BONUS;
+  private static final double PARENT_GUARD_ESCAPE_REDUCTION;
+  private static final double PACK_DEFENSE_RANGE_BONUS;
+  private static final double PARENT_DEFENSE_RANGE_BONUS;
+  private static final int STARTLE_MIN_TICKS;
+  private static final int RELOCATE_COMMIT_TICKS;
+  private static final int RELOCATE_REPATH_TICKS;
+  private static final double RETREAT_SAFE_DISTANCE;
+  private static final double FLEE_SAFE_DISTANCE;
+  private static final double PANIC_SAFE_DISTANCE;
+  private static final double RELOCATE_MIN_THREAT_DISTANCE;
+  private static final double RELOCATE_DESIRED_SEPARATION;
+  private static final double RELOCATE_TARGET_STEP;
+  private static final double PREDATOR_HORIZONTAL_FOV_DEGREES;
+  private static final double PREY_HORIZONTAL_FOV_DEGREES;
+  private static final int VISION_RAY_SAMPLES;
+  private static final double VISUAL_AWARENESS_DETECT;
+  private static final double VISUAL_AWARENESS_CLOSE;
+  private static final double PURSUIT_RETREAT_THRESHOLD;
+  private static final double PURSUIT_STRONG_THRESHOLD;
+  private static final int ASSESS_LOOK_TICKS;
+  private static final int HEARING_STEP_COOLDOWN;
+  private static final double SATIETY_DECAY_PER_SECOND;
+  private static final double SATIETY_KILL_GAIN;
+  private static final double SATIETY_KILL_FLOOR;
+  private static final double HUNT_START_HUNGER;
+  private static final double HUNT_CONTINUE_HUNGER;
+  private static final double HUNT_START_STAMINA;
+  private static final double CHASE_RESERVE_BASE;
+  private static final int CHASE_REST_BASE_TICKS;
+  private static final net.minecraft.resources.ResourceLocation SPEED_TRAIT_MODIFIER_ID;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState> STATES;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TFCWildlifeAI$ShotStamp> LAST_SHOT_BY_PLAYER;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TFCWildlifeAI$DebugSession> DEBUG_SESSIONS;
+  private static final java.util.Map<java.lang.String, java.lang.Long> HEARING_THROTTLE;
+  private static volatile boolean persistenceReflectionInitAttempted;
+  private static volatile boolean persistenceReflectionAvailable;
+  private static java.lang.reflect.Method entityGetPersistentData;
+  private static java.lang.reflect.Method tagContains;
+  private static java.lang.reflect.Method tagGet;
+  private static java.lang.reflect.Method tagGetInt;
+  private static java.lang.reflect.Method tagPutInt;
+  private static java.lang.reflect.Method tagGetDouble;
+  private static java.lang.reflect.Method tagPutDouble;
+  private static final java.util.Set<java.lang.String> LAND_PREDATORS;
+  private static final java.util.Set<java.lang.String> OCEAN_PREDATORS;
+  private static final java.util.Set<java.lang.String> RAMMERS;
+  private static final java.util.Set<java.lang.String> WILD_PREY;
+  private static final java.util.Set<java.lang.String> HUNTED_BY_LAND_PREDATORS;
+  private static final java.util.Set<java.lang.String> FARM_ANIMALS;
+  private static final java.util.Set<java.lang.String> PETS;
+  public ypmods.tfcwildlife.TFCWildlifeAI(net.neoforged.bus.api.IEventBus);
+  private void onEntityTickPost(net.neoforged.neoforge.event.tick.EntityTickEvent$Post);
+  private static ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState stateFor(net.minecraft.world.entity.PathfinderMob, long);
+  private static int activeIntervalFor(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static int visionIntervalFor(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static int socialIntervalFor(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static synchronized void ensurePersistenceReflection();
+  private static boolean persistentTagContains(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static double persistentTagDouble(java.lang.Object, java.lang.String, double) throws java.lang.Exception;
+  private static int persistentTagInt(java.lang.Object, java.lang.String, int) throws java.lang.Exception;
+  private static void ensurePersistentStateLoaded(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static void persistStateIfDue(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long, boolean);
+  private static void ensureIndividualSpeedTrait(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState);
+  private static void perceiveNearbyPlayer(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long);
+  private void onVanillaGameEvent(net.neoforged.neoforge.event.VanillaGameEvent);
+  private static java.lang.String vanillaGameEventId(java.lang.Object);
+  private static void emitBehaviorSound(net.minecraft.world.level.Level, net.minecraft.world.phys.Vec3, double, ypmods.tfcwildlife.TFCWildlifeAI$BehaviorSoundType, double, net.minecraft.world.entity.player.Player, long);
+  private static net.minecraft.world.phys.Vec3 approximateHeardPosition(net.minecraft.world.entity.PathfinderMob, net.minecraft.world.phys.Vec3, double, double, long);
+  private void onGunFire(com.tacz.guns.api.event.common.GunFireEvent);
+  private void onExplosionDetonate(net.neoforged.neoforge.event.level.ExplosionEvent$Detonate);
+  private void onEntityJoinLevel(net.neoforged.neoforge.event.entity.EntityJoinLevelEvent);
+  private static void emitLoudSound(net.minecraft.world.level.Level, net.minecraft.world.phys.Vec3, int, ypmods.tfcwildlife.TFCWildlifeAI$LoudSoundType, double, java.util.UUID, long);
+  private void onLivingDamagePost(net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Post);
+  public static void afterPredatorHurt(net.dries007.tfc.common.entities.predator.Predator, net.minecraft.world.damagesource.DamageSource, float);
+  private static void reactNearbyToAttack(net.minecraft.world.level.Level, net.minecraft.world.entity.PathfinderMob, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.Entity, long);
+  private void onLivingDeath(net.neoforged.neoforge.event.entity.living.LivingDeathEvent);
+  private static void evaluateSituation(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long, boolean);
+  private static ypmods.tfcwildlife.TFCWildlifeAI$AlertLevel alertFromScores(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, double);
+  private static void applyIntent(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long);
+  private static net.minecraft.world.phys.Vec3 chooseSmoothAwayTarget(net.minecraft.world.entity.PathfinderMob, net.minecraft.world.phys.Vec3, double, int, long);
+  static void wakePredator(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long, java.lang.String);
+  private static void faceThreat(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState);
+  private static net.minecraft.world.entity.LivingEntity currentAttackTarget(net.minecraft.world.entity.PathfinderMob);
+  private static void clearCombatBrain(net.minecraft.world.entity.PathfinderMob);
+  private static void clearCombatTargetsKeepNavigation(net.minecraft.world.entity.PathfinderMob);
+  public static boolean shouldBlockPredatorHunting(net.dries007.tfc.common.entities.predator.Predator);
+  public static boolean shouldSuppressPlayerAsPrey(net.dries007.tfc.common.entities.predator.Predator);
+  private static boolean isThreatPlayer(net.minecraft.world.entity.PathfinderMob, java.util.UUID);
+  private static boolean isLikelyFirearmHit(net.minecraft.world.damagesource.DamageSource, net.minecraft.world.entity.Entity, long);
+  private static double healthRatio(net.minecraft.world.entity.LivingEntity);
+  private static int gunshotRadius(java.lang.Object);
+  private static double gunshotFearIntensity(java.lang.Object, int);
+  private void onRegisterCommands(net.neoforged.neoforge.event.RegisterCommandsEvent);
+  private static int debugNearest(net.minecraft.commands.CommandSourceStack);
+  private static int debugOff(net.minecraft.commands.CommandSourceStack);
+  private static int toggleDebugLog(net.minecraft.commands.CommandSourceStack);
+  private static int inspectNearest(net.minecraft.commands.CommandSourceStack);
+  private static void pushDebugFor(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long);
+  private static java.util.List<java.lang.String> debugLines(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long);
+  private static double safeMovementAttribute(net.minecraft.world.entity.PathfinderMob);
+  private static java.lang.String brainMemory(net.minecraft.world.entity.PathfinderMob, net.minecraft.world.entity.ai.memory.MemoryModuleType<?>);
+  private static net.minecraft.world.entity.PathfinderMob nearestAnimal(net.minecraft.server.level.ServerPlayer, double);
+  private static net.minecraft.world.entity.PathfinderMob findAnimalByUUID(net.minecraft.server.level.ServerPlayer, java.util.UUID, double);
+  private static void purgeOldState(long);
+  private static double basePlayerDetectionRadius(java.lang.String);
+  private static double playerDetectionRadius(java.lang.String, net.minecraft.world.entity.player.Player);
+  private static double visionFovFor(java.lang.String);
+  private static double visionSensitivityFor(java.lang.String);
+  private static double hearingSensitivityFor(java.lang.String);
+  private static boolean isPackPredator(java.lang.String);
+  private static void refreshSocialContext(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static boolean isBabyReflective(net.minecraft.world.entity.Entity);
+  private static double defensiveRangeFor(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState);
+  private static int defenseDurationFor(ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState);
+  private static boolean canDefendAtCloseRange(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long);
+  private static void refreshThreatDistance(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState);
+  private static net.minecraft.world.entity.player.Player playerByUuid(net.minecraft.world.entity.PathfinderMob, java.util.UUID);
+  private static void setBrainAttackTarget(net.minecraft.world.entity.PathfinderMob, net.minecraft.world.entity.LivingEntity);
+  private static void triggerPackDefense(net.minecraft.world.entity.PathfinderMob, java.lang.String, net.minecraft.world.entity.player.Player, long, java.lang.String);
+  private static boolean containsAny(java.lang.String, java.lang.String...);
+  private static net.minecraft.world.entity.Entity attackingEntity(net.minecraft.world.damagesource.DamageSource);
+  private static net.minecraft.world.phys.AABB around(net.minecraft.world.phys.Vec3, double);
+  private static net.minecraft.world.phys.Vec3 directFallback(net.minecraft.world.phys.Vec3, net.minecraft.world.phys.Vec3, double);
+  private static boolean isTFCAnimal(net.minecraft.world.entity.Entity);
+  private static boolean isLandPredator(java.lang.String);
+  private static boolean isPrey(java.lang.String);
+  private static boolean isWildOrHuntedPrey(java.lang.String);
+  private static boolean sameSpecies(java.lang.String, java.lang.String);
+  private static java.lang.String idOf(net.minecraft.world.entity.Entity);
+  private static java.lang.Object call(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static java.lang.String shortId(java.lang.String);
+  private static java.lang.String fmtVec(net.minecraft.world.phys.Vec3);
+  private static double clamp(double, double, double);
+  private static int hungerBand(double);
+  private static double trait(java.util.UUID, long, double, double);
+  private static boolean lambda$purgeOldState$8(long, java.util.Map$Entry);
+  private static boolean lambda$purgeOldState$7(long, java.util.Map$Entry);
+  private static boolean lambda$purgeOldState$6(long, java.util.Map$Entry);
+  private static ypmods.tfcwildlife.TFCWildlifeAI$DebugSession lambda$debugNearest$5(net.minecraft.server.level.ServerPlayer, java.util.UUID);
+  private static int lambda$onRegisterCommands$4(com.mojang.brigadier.context.CommandContext) throws java.lang.Exception;
+  private static int lambda$onRegisterCommands$3(com.mojang.brigadier.context.CommandContext) throws java.lang.Exception;
+  private static int lambda$onRegisterCommands$2(com.mojang.brigadier.context.CommandContext) throws java.lang.Exception;
+  private static int lambda$onRegisterCommands$1(com.mojang.brigadier.context.CommandContext) throws java.lang.Exception;
+  private static ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState lambda$stateFor$0(java.util.UUID);
+  static {};
+}
+
+===== ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState =====
+Compiled from "TFCWildlifeAI.java"
+final class ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState {
+  final java.util.UUID identity;
+  final double speedTrait;
+  final double staminaTrait;
+  final double courageTrait;
+  ypmods.tfcwildlife.TFCWildlifeAI$AlertLevel alert;
+  ypmods.tfcwildlife.TFCWildlifeAI$Intent intent;
+  ypmods.tfcwildlife.TFCWildlifeAI$MovementMode movementMode;
+  ypmods.tfcwildlife.TFCWildlifeAI$ThreatKind threatKind;
+  net.minecraft.world.phys.Vec3 threatPos;
+  java.util.UUID threatEntity;
+  double confidence;
+  double distanceToThreat;
+  double directThreat;
+  double loudSoundFear;
+  double stamina;
+  double satiety;
+  double threatScore;
+  double attackScore;
+  double escapeScore;
+  double lastRequestedSpeed;
+  net.minecraft.world.phys.Vec3 relocateTarget;
+  long relocateTargetUntil;
+  long lastTouched;
+  long lastThreatAt;
+  long lastLoudSoundAt;
+  long intentSince;
+  long intentUntil;
+  long nextPathAt;
+  long defendUntil;
+  long forcedFleeUntil;
+  long chaseExhaustedUntil;
+  long startleUntil;
+  int entityId;
+  java.lang.String speciesId;
+  double visualAwareness;
+  double pursuitPressure;
+  double hearingPressure;
+  double hearingAccuracy;
+  double previousVisualDistance;
+  long previousVisualAt;
+  long lastHeardAt;
+  long lastRelocateReplanAt;
+  java.util.UUID lastVisualPlayer;
+  boolean wasVisuallyDetectedLastScan;
+  net.minecraft.world.phys.Vec3 heardPos;
+  double lastHeardAdded;
+  ypmods.tfcwildlife.TFCWildlifeAI$BehaviorSoundType lastHeardType;
+  long lastPackAlarmAt;
+  long lastSocialScanAt;
+  int packTotal;
+  int packAdults;
+  double packConfidence;
+  boolean offspringNearby;
+  long lastVisionAt;
+  double visionDistance;
+  double visionAngleDegrees;
+  double visionCoverFactor;
+  double visionScore;
+  int visionVisiblePoints;
+  boolean visionInsideFov;
+  boolean visionDetected;
+  java.lang.String visionReason;
+  long lastAggressionAt;
+  java.lang.String lastAggressionTrigger;
+  double lastAggressionDistance;
+  int lastAggressionSourceMobId;
+  int lastAggressionPackJoined;
+  double lastLoudAdded;
+  ypmods.tfcwildlife.TFCWildlifeAI$LoudSoundType lastLoudSoundType;
+  boolean decisionDirty;
+  boolean speedTraitApplyErrorLogged;
+  int lastHungerBand;
+  long lastChaseAbortAt;
+  java.lang.String decisionReason;
+  final java.util.Deque<ypmods.tfcwildlife.TFCWildlifeAI$DebugEvent> events;
+  long eventSerial;
+  long nextActiveAt;
+  long nextVisionScanAt;
+  long nextSocialAt;
+  long lastActiveUpdateAt;
+  long lastVisionScanAt;
+  boolean persistenceLoaded;
+  boolean persistenceDirty;
+  boolean persistenceErrorLogged;
+  long lastPersistAt;
+  double lastPersistedSatiety;
+  double lastPersistedStamina;
+  java.lang.String persistenceBackend;
+  ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState(java.util.UUID);
+  double beginVisionScan(long);
+  void rememberThreat(ypmods.tfcwildlife.TFCWildlifeAI$ThreatKind, net.minecraft.world.phys.Vec3, java.util.UUID, long, double);
+  void captureVision(ypmods.tfcwildlife.TFCWildlifeAI$VisionResult, long);
+  void updatePursuit(net.minecraft.world.entity.player.Player, double, long);
+  void recordAggression(java.lang.String, double, int, int, long);
+  void setIntent(ypmods.tfcwildlife.TFCWildlifeAI$Intent, long, int, java.lang.String);
+  void decay(ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, long, double);
+  void updateSatiety(java.lang.String, double, long);
+  double huntDrive();
+  boolean hungryEnoughToStartHunt();
+  boolean hungryEnoughToContinueHunt();
+  boolean staminaReadyToStartHunt();
+  double chaseReserve();
+  void beginChaseRest(long, java.lang.String);
+  void noteChaseAbort(long, java.lang.String);
+  void onSuccessfulHunt(java.lang.String, long);
+  void updateStamina(ypmods.tfcwildlife.TFCWildlifeAI$SpeciesProfile, double, long);
+  void log(java.lang.String, java.lang.String);
+  void addEvent(long, java.lang.String, java.lang.String);
+  java.lang.String lastEventText();
+}
+
+===== ypmods.tfcwildlife.TFCWildlifeAI$Intent =====
+Compiled from "TFCWildlifeAI.java"
+public final class ypmods.tfcwildlife.TFCWildlifeAI$Intent extends java.lang.Enum<ypmods.tfcwildlife.TFCWildlifeAI$Intent> {
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent IDLE;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent ASSESS;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent APPROACH;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent RELOCATE;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent RETREAT;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent FLEE;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent HUNT;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent CHASE;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent ATTACK;
+  public static final ypmods.tfcwildlife.TFCWildlifeAI$Intent DEFEND;
+  private static final ypmods.tfcwildlife.TFCWildlifeAI$Intent[] $VALUES;
+  public static ypmods.tfcwildlife.TFCWildlifeAI$Intent[] values();
+  public static ypmods.tfcwildlife.TFCWildlifeAI$Intent valueOf(java.lang.String);
+  private ypmods.tfcwildlife.TFCWildlifeAI$Intent();
+  private static ypmods.tfcwildlife.TFCWildlifeAI$Intent[] $values();
+  static {};
+}
+
+===== ypmods.tfcwildlife.Alpha34Runtime =====
+Compiled from "Alpha34Runtime.java"
+public final class ypmods.tfcwildlife.Alpha34Runtime {
+  private static final java.lang.String INJURY_ID;
+  private static final java.lang.String ACTIVITY_ID;
+  private static final java.util.Map<java.util.UUID, java.lang.String> LAST_INTENT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> NEXT_AGGRESSION_GROWL_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> WARNING_STARTED_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Double> WARNING_ENTRY_DISTANCE;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> NEXT_WARNING_GROWL_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Integer> WARNING_GROWL_COUNT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> ENGAGEMENT_STARTED_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> LAST_ENGAGEMENT_PROGRESS_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Double> LAST_ENGAGEMENT_DISTANCE;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> LAST_ENGAGEMENT_DISTANCE_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> LAST_HURT_MOB_STAMP;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> DISENGAGED_UNTIL;
+  private static final java.util.Map<java.util.UUID, java.lang.Double> LAST_INJURY_MULTIPLIER;
+  private static final java.util.Map<java.util.UUID, java.lang.Double> LAST_ACTIVITY_MULTIPLIER;
+  private static final java.util.Map<java.util.UUID, java.lang.Double> LAST_PLAYER_DISTANCE;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> LAST_PLAYER_DISTANCE_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> HUMAN_PREY_CHASE_UNTIL;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> EXTENDED_FLEE_STARTED_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> ROUTINE_RELOCATE_STARTED_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> RELOCATE_COOLDOWN_UNTIL;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> DEFEND_HOLD_UNTIL;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> CONFIDENT_PACK_HOLD_UNTIL;
+  private static final java.util.Map<java.lang.Object, java.lang.Long> CONFIDENT_PACK_STATE_HOLD_UNTIL;
+  private static final java.util.Map<java.lang.Object, java.lang.Double> EFFECTIVE_PACK_CONFIDENCE;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> LAST_BABY_DAMAGE_REACTION_AT;
+  private static final double WARNING_RADIUS;
+  private static final double WARNING_RELEASE_RADIUS;
+  private static final long WARNING_ESCALATE_TICKS;
+  private static final long WARNING_RESET_ON_RETREAT_TICKS;
+  private static final double HUMAN_PREY_TRIGGER_MAX_DISTANCE;
+  private static final double HUMAN_PREY_CONTINUE_MAX_DISTANCE;
+  private static final double HUMAN_PREY_HUNT_DRIVE;
+  private static final long HUMAN_PREY_REFLEX_TICKS;
+  private static final long HUMAN_PREY_HUNGRY_CHASE_TICKS;
+  private static final long LOST_INTEREST_NO_PROGRESS_TICKS;
+  private static final long LOST_INTEREST_MIN_ENGAGEMENT_TICKS;
+  private static final long LOST_INTEREST_COOLDOWN_TICKS;
+  private static final long MAX_EXTENDED_FLEE_TICKS;
+  private static final long ROUTINE_RELOCATE_MAX_TICKS;
+  private static final long RELOCATE_COOLDOWN_TICKS;
+  private static final long DEFEND_HOLD_TICKS;
+  private static final double DEFEND_HOLD_RELEASE_DISTANCE;
+  private static final long CONFIDENT_PACK_HOLD_LATCH_TICKS;
+  private static final double PACK_EXTRA_PLAYER_CONFIDENCE_PENALTY;
+  private static final double PACK_HOLD_CONFIDENCE_THRESHOLD;
+  private static final double PACK_PLAYER_NOTICE_CLOSE_RADIUS;
+  private static final double BABY_DIRECT_DAMAGE_EXTRA_FEAR;
+  private static final long BABY_DIRECT_DAMAGE_FLEE_TICKS;
+  private ypmods.tfcwildlife.Alpha34Runtime();
+  public static void beforeApplyIntent(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object, long);
+  public static double scaleRequestedSpeed(double, java.lang.Object, java.lang.Object);
+  public static boolean suppressRoutineRelocateDecision(java.lang.Object, java.lang.String, long, java.lang.String);
+  private static void forceAssessWithoutIntentTransition(java.lang.Object, long, long, java.lang.String) throws java.lang.Exception;
+  private static boolean isRoutineRelocateReason(java.lang.String);
+  private static boolean isRoutineHumanAvoidance(java.lang.String, java.lang.String);
+  private static boolean isPackPredator(java.lang.String);
+  private static boolean isBear(java.lang.String);
+  private static boolean isLandPredator(java.lang.String);
+  private static boolean isSafetyRetreat(java.lang.Object, java.lang.String, java.lang.String, long, double);
+  private static boolean shouldContinueExtendedFlee(java.lang.Object, java.lang.String, java.lang.String, long, java.lang.String, java.util.UUID);
+  private static double extendedFleeSafeDistance(java.lang.String, java.lang.Object);
+  private static java.lang.Object threatPlayer(java.lang.Object, java.lang.Object);
+  private static double huntDrive(java.lang.Object);
+  private static double samplePlayerRadialDelta(java.util.UUID, double, long);
+  private static double defensiveRangeForRuntime(java.lang.String, java.lang.Object, double);
+  private static void clearWarning(java.util.UUID);
+  private static void maybePredatorWarningGrowl(java.lang.Object, java.lang.String, long, java.util.UUID);
+  private static void updateEngagementProgress(java.lang.Object, java.lang.Object, java.util.UUID, double, long);
+  private static void clearEngagement(java.util.UUID);
+  private static void clearCombatBrainReflective(java.lang.Object);
+  private static double injuryMultiplier(double);
+  private static double lerp(double, double, double);
+  private static void maybePredatorAggressionGrowl(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, long, java.util.UUID);
+  private static boolean playPredatorAggressionSound(java.lang.Object, java.lang.String);
+  private static void setLookTargetToThreatPlayer(java.lang.Object, java.lang.Object);
+  private static void clearLookTarget(java.lang.Object);
+  private static boolean threatEntityIsPlayer(java.lang.Object, java.lang.Object);
+  private static double effectivePackConfidence(java.lang.Object, int);
+  private static int countRelevantPlayers(java.lang.Object, double);
+  private static boolean hasLineOfSightReflective(java.lang.Object, java.lang.Object);
+  private static void setIntent(java.lang.Object, java.lang.String, long, int, java.lang.String);
+  private static double healthRatio(java.lang.Object);
+  private static void applySpeedModifier(java.lang.Object, java.util.UUID, java.lang.String, double, java.util.Map<java.util.UUID, java.lang.Double>);
+  private static java.util.UUID uuidOf(java.lang.Object);
+  private static java.lang.String enumName(java.lang.Object);
+  private static java.lang.Object field(java.lang.Object, java.lang.String);
+  private static void setField(java.lang.Object, java.lang.String, java.lang.Object) throws java.lang.Exception;
+  private static java.lang.String stringField(java.lang.Object, java.lang.String, java.lang.String);
+  private static int intField(java.lang.Object, java.lang.String, int);
+  private static long longField(java.lang.Object, java.lang.String, long);
+  private static boolean boolField(java.lang.Object, java.lang.String, boolean);
+  private static double doubleField(java.lang.Object, java.lang.String, double);
+  private static java.lang.Object call(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static boolean boolCall(java.lang.Object, java.lang.String, boolean);
+  private static double numberCall(java.lang.Object, java.lang.String, double);
+  private static java.lang.Long lambda$beforeApplyIntent$2(long, java.util.UUID);
+  private static java.lang.Long lambda$beforeApplyIntent$1(long, java.util.UUID);
+  private static java.lang.Long lambda$beforeApplyIntent$0(long, java.util.UUID);
+  static {};
+}
+
+===== ypmods.tfcwildlife.SpeciesBehavior2026 =====
+Compiled from "SpeciesBehavior2026.java"
+public final class ypmods.tfcwildlife.SpeciesBehavior2026 {
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.SpeciesBehavior2026$Encounter> ENCOUNTERS;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> WAS_ASLEEP;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> WAKE_HANDLED;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> RECENT_COMBAT;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> DECISION_HOLD;
+  private ypmods.tfcwildlife.SpeciesBehavior2026();
+  private static java.lang.reflect.Field fieldOf(java.lang.Class<?>, java.lang.String) throws java.lang.Exception;
+  private static java.lang.Object get(java.lang.Object, java.lang.String);
+  private static void put(java.lang.Object, java.lang.String, java.lang.Object);
+  private static double num(java.lang.Object, double);
+  private static double dbl(java.lang.Object, java.lang.String, double);
+  private static long lng(java.lang.Object, java.lang.String, long);
+  private static boolean bool(java.lang.Object, java.lang.String);
+  private static int integer(java.lang.Object, java.lang.String, int);
+  private static java.lang.String name(java.lang.Object);
+  private static java.lang.Object invoke(java.lang.Object, java.lang.String);
+  private static java.util.UUID uuid(java.lang.Object);
+  private static double hp(java.lang.Object);
+  private static java.lang.Object player(java.lang.Object, java.lang.Object);
+  private static boolean isBear(java.lang.String);
+  private static boolean isCat(java.lang.String);
+  private static boolean land(java.lang.String);
+  private static double personality(java.util.UUID);
+  public static void observe(java.lang.Object, java.lang.String, java.lang.Object, long);
+  private static void intent(java.lang.Object, java.lang.String, java.lang.String, long, int);
+  private static boolean safety(java.lang.Object, java.lang.Object, long);
+  private static double baseChance(java.lang.String, int);
+  private static double attackChance(java.lang.String, int, double, double, boolean);
+  public static void decide(java.lang.Object, java.lang.String, java.lang.Object, long);
+  private static boolean lambda$observe$3(long, java.util.Map$Entry);
+  private static boolean lambda$observe$2(long, java.util.Map$Entry);
+  private static boolean lambda$observe$1(long, java.util.Map$Entry);
+  private static boolean lambda$observe$0(long, java.util.Map$Entry);
+  static {};
+}
+
+===== ypmods.tfcwildlife.HyenaRules =====
+Compiled from "HyenaRules.java"
+public final class ypmods.tfcwildlife.HyenaRules {
+  private ypmods.tfcwildlife.HyenaRules();
+  private static boolean hyena(java.lang.String);
+  private static java.lang.Object field(java.lang.Object, java.lang.String);
+  private static double number(java.lang.Object, double);
+  private static int adults(java.lang.Object);
+  private static java.lang.Object invoke(java.lang.Object, java.lang.String);
+  private static double hpRatio(java.lang.Object);
+  private static java.lang.Object threatPlayer(java.lang.Object, java.lang.Object);
+  private static boolean safeToHunt(java.lang.Object, java.lang.Object, long);
+  public static boolean humanHunt(java.lang.Object, java.lang.String, java.lang.Object, long, boolean);
+  public static double encounterChance(double, java.lang.String, java.lang.Object, java.lang.Object);
+  public static java.lang.Object packResponse(java.lang.Object, java.lang.String, java.lang.Object);
+  public static java.lang.String attackReason(java.lang.Object, java.lang.String, java.lang.Object, java.lang.String);
+}
+
+===== ypmods.tfcwildlife.CombatPriorityGuard =====
+Compiled from "CombatPriorityGuard.java"
+public final class ypmods.tfcwildlife.CombatPriorityGuard {
+  private ypmods.tfcwildlife.CombatPriorityGuard();
+  private static java.lang.Object field(java.lang.Object, java.lang.String);
+  private static long n(java.lang.Object);
+  public static boolean skip(java.lang.Object, java.lang.Object, long, int, java.lang.String);
+}
+
+===== ypmods.tfcwildlife.IntentStabilityGuard =====
+Compiled from "IntentStabilityGuard.java"
+public final class ypmods.tfcwildlife.IntentStabilityGuard {
+  private static final java.util.Map<java.lang.Class<?>, java.util.Map<java.lang.String, java.lang.reflect.Field>> FIELDS;
+  private ypmods.tfcwildlife.IntentStabilityGuard();
+  private static java.lang.reflect.Field getField(java.lang.Class<?>, java.lang.String);
+  private static java.lang.Object read(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static double dbl(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static long lng(java.lang.Object, java.lang.String) throws java.lang.Exception;
+  private static void writeLong(java.lang.Object, java.lang.String, long) throws java.lang.Exception;
+  private static boolean predator(java.lang.String);
+  private static boolean safety(java.lang.String);
+  public static boolean skip(java.lang.Object, java.lang.Object, long, int, java.lang.String);
+  private static java.lang.reflect.Field lambda$getField$1(java.lang.Class, java.lang.String, java.lang.String);
+  private static java.util.Map lambda$getField$0(java.lang.Class);
+  static {};
+}
+
+===== ypmods.tfcwildlife.FleeRouteGuard =====
+Compiled from "FleeRouteGuard.java"
+public final class ypmods.tfcwildlife.FleeRouteGuard {
+  private static final java.util.Map<net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.FleeRouteGuard$Route> ROUTES;
+  private ypmods.tfcwildlife.FleeRouteGuard();
+  public static double cubSpeedFactor(ypmods.tfcwildlife.TFCWildlifeAI$Intent);
+  public static double adultEarlyFactor(ypmods.tfcwildlife.TFCWildlifeAI$Intent);
+  public static net.minecraft.world.phys.Vec3 getPosAway(net.minecraft.world.entity.PathfinderMob, int, int, net.minecraft.world.phys.Vec3);
+  private static java.lang.Object value(java.lang.Object, java.lang.String) throws java.lang.ReflectiveOperationException;
+  private static long asLong(java.lang.Object, long);
+  private static double asDouble(java.lang.Object, double);
+  private static boolean isSafeExitReason(java.lang.String);
+  public static boolean blockFleeExit(java.lang.Object, java.lang.Object, long, java.lang.String);
+  static {};
+}
+
+===== ypmods.tfcwildlife.TraceV2 =====
+Compiled from "TraceV2.java"
+public final class ypmods.tfcwildlife.TraceV2 {
+  private static final boolean ENABLED;
+  private static final boolean ALL_SPECIES;
+  private static final java.lang.String PFX;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TraceV2$Sample> LAST;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TraceV2$Route> ROUTES;
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.TraceV2$Route> COMMITTED_ROUTES;
+  private static final java.util.Set<java.lang.String> WARNED;
+  private static int printCount;
+  private static final java.util.Map<java.util.UUID, java.lang.Long> HYENA_PRINT_AT;
+  private static final java.util.Map<java.util.UUID, java.lang.Boolean> HYENA_LAST;
+  private ypmods.tfcwildlife.TraceV2();
+  private static java.lang.Object f(java.lang.Object, java.lang.String);
+  private static java.lang.Object call(java.lang.Object, java.lang.String, java.lang.Object...);
+  private static java.lang.String s(java.lang.Object);
+  private static double n(java.lang.Object);
+  private static long l(java.lang.Object);
+  private static java.lang.String fmt(double);
+  private static java.lang.String ratio(java.lang.Object);
+  private static java.lang.String xy(java.lang.Object);
+  private static java.lang.Object nearPlayer(java.lang.Object, java.lang.Object);
+  private static boolean relevant(java.lang.Object);
+  private static java.util.UUID key(java.lang.Object);
+  private static java.lang.String identity(java.lang.Object);
+  private static java.lang.String snapshot(java.lang.Object, java.lang.Object);
+  private static void emit(java.lang.String);
+  public static void proposal(boolean, java.lang.Object, java.lang.Object, long, int, java.lang.String);
+  private static java.lang.String source();
+  public static void hyenaEligibility(boolean, java.lang.Object, java.lang.Object, long);
+  public static void phase(java.lang.String, java.lang.Object, java.lang.Object, long);
+  public static void navigationResult(boolean, java.lang.Object, java.lang.Object, long);
+  public static void route(java.lang.Object, java.lang.Object, int, java.lang.Object);
+  private static void warn(java.lang.Throwable);
+  private static ypmods.tfcwildlife.TraceV2$Sample lambda$phase$1(java.util.UUID);
+  private static ypmods.tfcwildlife.TraceV2$Sample lambda$proposal$0(java.util.UUID);
+  static {};
+}
+
+===== ypmods.tfcwildlife.AggroDiagnostics =====
+Compiled from "AggroDiagnostics.java"
+public final class ypmods.tfcwildlife.AggroDiagnostics {
+  private static final java.util.Map<java.util.UUID, ypmods.tfcwildlife.AggroDiagnostics$Sample> LAST;
+  private ypmods.tfcwildlife.AggroDiagnostics();
+  private static java.lang.Object field(java.lang.Object, java.lang.String);
+  private static java.lang.Object invoke(java.lang.Object, java.lang.String, java.lang.Class<?>[], java.lang.Object...);
+  private static double d(java.lang.Object);
+  private static double dv(java.lang.Object, java.lang.String);
+  private static java.lang.String str(java.lang.Object);
+  private static java.lang.String fmt(double);
+  private static double hp(java.lang.Object);
+  private static java.lang.Object threatPlayer(java.lang.Object, java.util.UUID);
+  private static java.lang.Object encounter(java.util.UUID);
+  private static double attackChance(java.lang.String, int, double, double, boolean);
+  public static void report(java.lang.Object, java.lang.Object, long);
+  static {};
+}
+
+===== ypmods.tfcwildlife.PredatorBalancePatch =====
+public final class ypmods.tfcwildlife.PredatorBalancePatch {
+  private static final net.minecraft.resources.ResourceLocation ID;
+  static {};
+  public static void applySpeed(net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$Intent);
+  public static void wakeOnWarning(net.minecraft.world.entity.PathfinderMob, ypmods.tfcwildlife.TFCWildlifeAI$WildlifeState, long);
+  private static boolean isBearSpecies(java.lang.String);
+  public static ypmods.tfcwildlife.TFCWildlifeAI$MovementMode walkingRetreatMode(java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$Intent, ypmods.tfcwildlife.TFCWildlifeAI$MovementMode);
+  public static double walkingRetreatSpeed(double, net.minecraft.world.entity.PathfinderMob, java.lang.String, ypmods.tfcwildlife.TFCWildlifeAI$Intent);
+  private static double bearActiveFactor(ypmods.tfcwildlife.TFCWildlifeAI$Intent);
+}
+
+===== ypmods.tfcwildlife.mixin.PredatorAiMixin =====
+Compiled from "PredatorAiMixin.java"
+public abstract class ypmods.tfcwildlife.mixin.PredatorAiMixin {
+  public ypmods.tfcwildlife.mixin.PredatorAiMixin();
+  private static void tfcWildlife$filterPlayerAsPrey(net.dries007.tfc.common.entities.predator.Predator, org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.util.Optional<? extends net.minecraft.world.entity.LivingEntity>>);
+  private static boolean lambda$tfcWildlife$filterPlayerAsPrey$0(net.minecraft.world.entity.LivingEntity);
+}
+
+===== ypmods.tfcwildlife.mixin.PackPredatorAiMixin =====
+Compiled from "PackPredatorAiMixin.java"
+public abstract class ypmods.tfcwildlife.mixin.PackPredatorAiMixin {
+  public ypmods.tfcwildlife.mixin.PackPredatorAiMixin();
+  private static void tfcWildlife$gateInheritedPackTarget(net.dries007.tfc.common.entities.predator.Predator, org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.util.Optional<? extends net.minecraft.world.entity.LivingEntity>>);
+}
+
+===== ypmods.tfcwildlife.mixin.PredatorMixin =====
+Compiled from "PredatorMixin.java"
+public abstract class ypmods.tfcwildlife.mixin.PredatorMixin {
+  public ypmods.tfcwildlife.mixin.PredatorMixin();
+  private void tfcWildlife$afterPredatorHurt(net.minecraft.world.damagesource.DamageSource, float, org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.lang.Boolean>);
+  private void tfcWildlife$suppressServerMeleeAttackVocalization(net.dries007.tfc.common.entities.predator.Predator, net.minecraft.sounds.SoundEvent, float, float);
+  private void tfcWildlife$suppressClientMeleeAttackVocalization(net.dries007.tfc.common.entities.predator.Predator, net.minecraft.sounds.SoundEvent, float, float);
+}
+

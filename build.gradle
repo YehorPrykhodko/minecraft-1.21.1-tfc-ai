@@ -1,0 +1,8 @@
+plugins { id 'base' }
+allprojects {
+    group = 'ypmods.tfcwildlife'
+    version = '3.0.0-alpha.1'
+    repositories { mavenCentral() }
+}
+tasks.named('build') { dependsOn subprojects.collect { it.tasks.named('build') } }
+tasks.named('check') { dependsOn subprojects.collect { it.tasks.named('check') } }

@@ -1,0 +1,242 @@
+[30Oct2026 16:18:05.066] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.235, --fml.neoFormVersion, 20240808.144430]
+[30Oct2026 16:18:05.071] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[30Oct2026 16:18:05.073] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.57
+[30Oct2026 16:18:05.222] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[30Oct2026 16:18:05.285] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspace/.gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[30Oct2026 16:18:05.963] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[30Oct2026 16:18:05.965] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.235 (neoforge)
+		Patchouli 1.21.1-92-NEOFORGE (patchouli)
+		SimpleBedrockModel 2.2.1-neoforge+mc1.21.1 (simplebedrockmodel)
+		TerraFirmaCraft 4.2.7 (tfc)
+		TFC Wildlife AI Remaster 3.0.0-alpha.1 (tfc_wildlife_ai)
+		Timeless & Classics Guns: Zero 1.1.8-hotfix-r3 (tacz)
+[30Oct2026 16:18:06.923] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by tacz.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[30Oct2026 16:18:06.924] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Oct2026 16:18:06.930] [main/WARN] [mixin/]: Compatibility level JAVA_21 specified by patchouli_xplat.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[30Oct2026 16:18:06.931] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[30Oct2026 16:18:06.935] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by simplebedrockmodel.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[30Oct2026 16:18:06.948] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[30Oct2026 16:18:07.055] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[30Oct2026 16:18:07.056] [main/INFO] [mixin/]: Selecting config tacz.mixins.json
+[30Oct2026 16:18:07.061] [main/WARN] [mixin/]: Reference map 'tacz.refmap.json' for tacz.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2026 16:18:07.062] [main/INFO] [mixin/]: Selecting config tacz.compat.acceleratedrendering.mixins.json
+[30Oct2026 16:18:07.066] [main/WARN] [mixin/]: Reference map 'tacz.refmap.json' for tacz.compat.acceleratedrendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2026 16:18:07.067] [main/INFO] [mixin/]: Selecting config patchouli_xplat.mixins.json
+[30Oct2026 16:18:07.067] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2026 16:18:07.068] [main/INFO] [mixin/]: Selecting config simplebedrockmodel.mixins.json
+[30Oct2026 16:18:07.068] [main/WARN] [mixin/]: Reference map 'simplebedrockmodel.refmap.json' for simplebedrockmodel.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2026 16:18:07.068] [main/INFO] [mixin/]: Selecting config neoforge.mixins.json
+[30Oct2026 16:18:07.069] [main/INFO] [mixin/]: Selecting config tfc.mixins.json
+[30Oct2026 16:18:07.071] [main/WARN] [mixin/]: Reference map 'tfc.refmap.json' for tfc.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Oct2026 16:18:07.088] [main/INFO] [mixin/]: Selecting config tfc_wildlife_ai.mixins.json
+[30Oct2026 16:18:07.090] [main/INFO] [mixin/]: Selecting config mixinextras.init.mixins.json
+[30Oct2026 16:18:07.220] [main/INFO] [mixin/]: Preparing tacz.mixins.json (15)
+[30Oct2026 16:18:07.245] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/controllable/client/binding/context/BindingContext (java.lang.ClassNotFoundException: com.mrcrayfish.controllable.client.binding.context.BindingContext)
+[30Oct2026 16:18:07.391] [main/INFO] [mixin/]: Preparing tacz.compat.acceleratedrendering.mixins.json (1)
+[30Oct2026 16:18:07.392] [main/INFO] [mixin/]: Preparing patchouli_xplat.mixins.json (10)
+[30Oct2026 16:18:07.399] [main/INFO] [mixin/]: Preparing simplebedrockmodel.mixins.json (4)
+[30Oct2026 16:18:07.401] [main/INFO] [mixin/]: Preparing neoforge.mixins.json (2)
+[30Oct2026 16:18:07.414] [main/INFO] [mixin/]: Preparing tfc.mixins.json (72)
+[30Oct2026 16:18:07.844] [main/INFO] [mixin/]: Preparing tfc_wildlife_ai.mixins.json (3)
+[30Oct2026 16:18:07.848] [main/INFO] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[30Oct2026 16:18:07.899] [main/INFO] [mixin/]: Prepared 62 mixins in 0.842 sec (13.6ms avg) (0ms load, 0ms transform, 0ms plugin)
+[30Oct2026 16:18:07.904] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[30Oct2026 16:18:07.921] [main/INFO] [mixin/]: Mixing MainMixin from tfc.mixins.json into net.minecraft.server.Main
+[30Oct2026 16:18:08.397] [main/INFO] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[30Oct2026 16:18:08.527] [main/INFO] [mixin/]: Mixing accessor.BlockBehaviourAccessor from tfc.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
+[30Oct2026 16:18:08.533] [main/INFO] [mixin/]: Mixing accessor.BlockStateBaseAccessor from tfc.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[30Oct2026 16:18:08.546] [main/INFO] [mixin/]: Mixing LevelAccessorMixin from tfc.mixins.json into net.minecraft.world.level.LevelAccessor
+[30Oct2026 16:18:08.577] [main/INFO] [mixin/]: Mixing EntityMixin from tfc.mixins.json into net.minecraft.world.entity.Entity
+[30Oct2026 16:18:08.659] [main/INFO] [mixin/]: Mixing PlayerMixin from tfc.mixins.json into net.minecraft.world.entity.player.Player
+[30Oct2026 16:18:08.766] [main/INFO] [mixin/]: Mixing common.LivingEntityMixin from tacz.mixins.json into net.minecraft.world.entity.LivingEntity
+[30Oct2026 16:18:08.767] [main/WARN] [mixin/]: tacz.mixins.json:common.LivingEntityMixin from mod tacz: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Oct2026 16:18:08.774] [main/INFO] [mixin/]: Renaming synthetic method lambda$initialData$0()Lnet/minecraft/world/item/ItemStack; to md3fce34$tacz$lambda$initialData$0$0 in tacz.mixins.json:common.LivingEntityMixin from mod tacz
+[30Oct2026 16:18:08.945] [main/INFO] [mixin/]: Mixing LevelMixin from tfc.mixins.json into net.minecraft.world.level.Level
+[30Oct2026 16:18:08.978] [main/INFO] [mixin/]: Mixing ServerLevelMixin from tfc.mixins.json into net.minecraft.server.level.ServerLevel
+[30Oct2026 16:18:09.261] [main/INFO] [mixin/]: Mixing FallingBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.FallingBlock
+[30Oct2026 16:18:09.337] [main/INFO] [mixin/]: Mixing SnowLayerBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.SnowLayerBlock
+[30Oct2026 16:18:09.427] [main/INFO] [mixin/]: Mixing VineBlockMixin from tfc.mixins.json into net.minecraft.world.level.block.VineBlock
+[30Oct2026 16:18:09.649] [main/INFO] [mixin/]: Mixing WaterMixin from tfc.mixins.json into net.minecraft.world.level.material.WaterFluid
+[30Oct2026 16:18:09.654] [main/INFO] [mixin/]: Mixing FlowingFluidMixin from tfc.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[30Oct2026 16:18:09.655] [main/INFO] [mixin/]: Mixing accessor.FlowingFluidAccessor from tfc.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[30Oct2026 16:18:09.664] [main/INFO] [mixin/]: Mixing LavaMixin from tfc.mixins.json into net.minecraft.world.level.material.LavaFluid
+[30Oct2026 16:18:09.725] [main/INFO] [mixin/]: Mixing accessor.FallingBlockEntityAccessor from tfc.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[30Oct2026 16:18:09.883] [main/INFO] [mixin/]: Mixing PistonBlockEntityMixin from tfc.mixins.json into net.minecraft.world.level.block.piston.PistonMovingBlockEntity
+[30Oct2026 16:18:09.921] [main/INFO] [mixin/]: Mixing MobMixin from tfc.mixins.json into net.minecraft.world.entity.Mob
+[30Oct2026 16:18:09.997] [main/INFO] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[30Oct2026 16:18:10.206] [main/INFO] [mixin/]: Mixing ItemStackMixin from tfc.mixins.json into net.minecraft.world.item.ItemStack
+[30Oct2026 16:18:10.228] [main/INFO] [mixin/]: Mixing BiomeMixin from tfc.mixins.json into net.minecraft.world.level.biome.Biome
+[30Oct2026 16:18:10.231] [main/INFO] [mixin/]: Mixing accessor.BiomeAccessor from tfc.mixins.json into net.minecraft.world.level.biome.Biome
+[30Oct2026 16:18:10.790] [main/INFO] [mixin/]: Mixing TadpoleMixin from tfc.mixins.json into net.minecraft.world.entity.animal.frog.Tadpole
+[30Oct2026 16:18:10.827] [main/INFO] [mixin/]: Mixing common.ServerPlayerMixin from tacz.mixins.json into net.minecraft.server.level.ServerPlayer
+[30Oct2026 16:18:10.842] [main/INFO] [mixin/]: Mixing accessor.PatchedDataComponentMapAccessor from tfc.mixins.json into net.minecraft.core.component.PatchedDataComponentMap
+[30Oct2026 16:18:11.355] [main/INFO] [mixin/]: Mixing MilkBucketItemMixin from tfc.mixins.json into net.minecraft.world.item.MilkBucketItem
+[30Oct2026 16:18:11.551] [main/INFO] [mixin/]: Mixing accessor.ChunkAccessAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.ChunkAccess
+[30Oct2026 16:18:12.242] [main/INFO] [mixin/]: Mixing AbstractSkeletonMixin from tfc.mixins.json into net.minecraft.world.entity.monster.AbstractSkeleton
+[30Oct2026 16:18:12.243] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$reassessWeaponGoal$1(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z to md3fce34$tfc$lambda$inject$reassessWeaponGoal$1$0 in tfc.mixins.json:AbstractSkeletonMixin from mod tfc
+[30Oct2026 16:18:12.244] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$reassessWeaponGoal$0(Lnet/minecraft/world/item/Item;)Z to md3fce34$tfc$lambda$inject$reassessWeaponGoal$0$1 in tfc.mixins.json:AbstractSkeletonMixin from mod tfc
+[30Oct2026 16:18:12.264] [main/INFO] [mixin/]: Mixing accessor.CamelAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.camel.Camel
+[30Oct2026 16:18:12.422] [main/INFO] [mixin/]: Mixing accessor.HorseAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.horse.Horse
+[30Oct2026 16:18:12.452] [main/INFO] [mixin/]: Mixing accessor.OcelotAccessor from tfc.mixins.json into net.minecraft.world.entity.animal.Ocelot
+[30Oct2026 16:18:12.569] [main/INFO] [mixin/]: Mixing FishingHookMixin from tfc.mixins.json into net.minecraft.world.entity.projectile.FishingHook
+[30Oct2026 16:18:12.855] [main/INFO] [mixin/]: Mixing PredatorBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.predator.Predator
+[30Oct2026 16:18:12.880] [main/INFO] [mixin/]: Mixing PreyBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.prey.Prey
+[30Oct2026 16:18:12.886] [main/INFO] [mixin/]: Mixing RammingBrainMixin from tfc_wildlife_ai.mixins.json into net.dries007.tfc.common.entities.prey.RammingPrey
+[30Oct2026 16:18:13.517] [main/INFO] [mixin/]: Mixing HeightmapMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.Heightmap$Types
+[30Oct2026 16:18:13.518] [main/INFO] [mixin/]: Renaming synthetic method lambda$inject$init$0(Ljava/util/function/Predicate;Lnet/minecraft/world/level/block/state/BlockState;)Z to md3fce34$tfc$lambda$inject$init$0$0 in tfc.mixins.json:HeightmapMixin from mod tfc
+[30Oct2026 16:18:13.521] [main/WARN] [mixin/]: Write access to @Mutable @Final field isOpaque:Ljava/util/function/Predicate; in tfc.mixins.json:HeightmapMixin from mod tfc::handler$zzn000$tfc$inject$init
+[30Oct2026 16:18:13.585] [main/INFO] [mixin/]: Mixing AccessorSmithingTransformRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTransformRecipe
+[30Oct2026 16:18:13.588] [main/INFO] [mixin/]: Mixing AccessorSmithingTrimRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTrimRecipe
+[30Oct2026 16:18:14.092] [main/INFO] [mixin/]: Mixing accessor.ChunkGeneratorAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[30Oct2026 16:18:14.353] [main/INFO] [mixin/]: Mixing accessor.GameRulesAccessor from tfc.mixins.json into net.minecraft.world.level.GameRules
+[30Oct2026 16:18:14.354] [main/INFO] [mixin/]: Renaming @Accessor method accessor$getGameRuleTypes()Ljava/util/Map; to accessor$getGameRuleTypes$tfc_$md$3fce34$0 in tfc.mixins.json:accessor.GameRulesAccessor from mod tfc
+[30Oct2026 16:18:14.366] [main/INFO] [mixin/]: Mixing accessor.GameRulesTypeAccessor from tfc.mixins.json into net.minecraft.world.level.GameRules$Type
+[30Oct2026 16:18:14.384] [main/INFO] [mixin/]: Mixing WorldPresetsMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.presets.WorldPresets
+[30Oct2026 16:18:14.880] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Oct2026 16:18:14.882] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Oct2026 16:18:14.885] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Oct2026 16:18:14.886] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Oct2026 16:18:14.887] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Oct2026 16:18:14.946] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.235, for MC 1.21.1
+[30Oct2026 16:18:15.074] [modloading-worker-0/INFO] [net.dries007.tfc.TerraFirmaCraft/]: Initializing TerraFirmaCraft
+[30Oct2026 16:18:15.076] [modloading-worker-0/INFO] [net.dries007.tfc.TerraFirmaCraft/]: Options: Assertions = false, Debug = false, Production = false, Dist = DEDICATED_SERVER, Self Test = false (Fatal = true)
+[30Oct2026 16:18:15.701] [modloading-worker-0/WARN] [ypmods.tfcwildlife.TFCWildlifeAI/]: TaCZ : événement préalable utilisé ; une tentative non annulée peut précéder l'échec d'un tir. Vérifier le hotfix-r3.
+[30Oct2026 16:18:15.702] [modloading-worker-0/INFO] [ypmods.tfcwildlife.TFCWildlifeAI/]: Intégration sonore TaCZ : GunFireEvent
+[30Oct2026 16:18:19.146] [modloading-sync-worker/INFO] [mixin/]: Mixing SpawnPlacementsMixin from tfc.mixins.json into net.minecraft.world.entity.SpawnPlacements
+[30Oct2026 16:18:22.203] [modloading-worker-0/INFO] [net.dries007.tfc.TerraFirmaCraft/]: TFC Common Setup
+[30Oct2026 16:18:22.244] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[30Oct2026 16:18:22.245] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[30Oct2026 16:18:22.246] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[30Oct2026 16:18:22.246] [modloading-sync-worker/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[30Oct2026 16:18:22.353] [modloading-sync-worker/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/components/Button for invalid dist DEDICATED_SERVER
+[30Oct2026 16:18:22.364] [main/INFO] [mixin/]: Mixing DedicatedServerPropertiesMixin from tfc.mixins.json into net.minecraft.server.dedicated.DedicatedServerProperties
+[30Oct2026 16:18:22.402] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[30Oct2026 16:18:22.434] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar%2377!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%2377!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar%2377!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar%2377!/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1298) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar%2377!/:?]
+	... 9 more
+[30Oct2026 16:18:22.475] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspace/minecraft-1.21.1-tfc-ai/mod/build/moddev/artifacts/neoforge-21.1.235.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[30Oct2026 16:18:22.475] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspace/minecraft-1.21.1-tfc-ai/mod/build/moddev/artifacts/neoforge-21.1.235.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[30Oct2026 16:18:22.482] [main/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [tfc_wildlife_ai]
+[30Oct2026 16:18:22.499] [main/INFO] [mixin/]: Mixing ServerPlayerGameModeMixin from tfc.mixins.json into net.minecraft.server.level.ServerPlayerGameMode
+[30Oct2026 16:18:22.568] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspace/minecraft-1.21.1-tfc-ai/run/gametest/tacz
+[30Oct2026 16:18:22.572] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[30Oct2026 16:18:22.572] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[30Oct2026 16:18:22.580] [main/INFO] [mixin/]: Mixing PrimaryLevelDataMixin from tfc.mixins.json into net.minecraft.world.level.storage.PrimaryLevelData
+[30Oct2026 16:18:22.592] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspace/minecraft-1.21.1-tfc-ai/run/gametest/tacz
+[30Oct2026 16:18:22.592] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[30Oct2026 16:18:22.593] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[30Oct2026 16:18:23.831] [Worker-Main-2/INFO] [mixin/]: Mixing RecipeManagerMixin from tfc.mixins.json into net.minecraft.world.item.crafting.RecipeManager
+[30Oct2026 16:18:23.833] [Worker-Main-2/INFO] [mixin/]: Mixing accessor.RecipeManagerAccessor from tfc.mixins.json into net.minecraft.world.item.crafting.RecipeManager
+[30Oct2026 16:18:23.877] [Worker-Main-2/INFO] [mixin/]: Mixing TagLoaderMixin from tfc.mixins.json into net.minecraft.tags.TagLoader
+[30Oct2026 16:18:24.532] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7434 recipes
+[30Oct2026 16:18:24.696] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1515 advancements
+[30Oct2026 16:18:24.837] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 2 entity_damage_resistance(s).
+[30Oct2026 16:18:24.837] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 11 item_damage_resistance(s).
+[30Oct2026 16:18:24.838] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 5 drinkable(s).
+[30Oct2026 16:18:24.839] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 10 fertilizer(s).
+[30Oct2026 16:18:24.839] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 50 fuel(s).
+[30Oct2026 16:18:24.840] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 28 fluid_heat(s).
+[30Oct2026 16:18:24.840] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 5 knapping_type(s).
+[30Oct2026 16:18:24.840] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 1 support(s).
+[30Oct2026 16:18:24.841] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 67 item_size(s).
+[30Oct2026 16:18:24.842] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 76 fauna(s).
+[30Oct2026 16:18:24.843] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 49 climate_range(s).
+[30Oct2026 16:18:24.843] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 4 lamp_fuel(s).
+[30Oct2026 16:18:24.844] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 84 deposit(s).
+[30Oct2026 16:18:24.849] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 343 item_heat(s).
+[30Oct2026 16:18:24.851] [main/INFO] [net.dries007.tfc.util.data.DataManager/]: Loaded 192 food(s).
+[30Oct2026 16:18:28.013] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[30Oct2026 16:18:28.014] [main/INFO] [net.dries007.tfc.util.Helpers/]: ^ This is fine - No client or server recipe manager present upon initial resource reload on physical server
+[30Oct2026 16:18:28.053] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[30Oct2026 16:18:28.053] [main/INFO] [net.dries007.tfc.util.Helpers/]: ^ This is fine - No client or server recipe manager present upon initial resource reload on physical server
+[30Oct2026 16:18:28.091] [main/INFO] [net.dries007.tfc.common.component.TFCComponents/]: Modified default components of 4956 items after resource reload
+[30Oct2026 16:18:28.114] [main/INFO] [net.dries007.tfc.util.SelfTests/]: Data pack self tests passed in 7.634 ms
+[30Oct2026 16:18:28.250] [Server thread/INFO] [mixin/]: Mixing ChunkMapMixin from tfc.mixins.json into net.minecraft.server.level.ChunkMap
+[30Oct2026 16:18:28.253] [Server thread/INFO] [mixin/]: Mixing accessor.ChunkMapAccessor from tfc.mixins.json into net.minecraft.server.level.ChunkMap
+[30Oct2026 16:18:28.258] [Server thread/WARN] [mixin/]: Write access to @Mutable @Final field worldGenContext:Lnet/minecraft/world/level/chunk/status/WorldGenContext; in tfc.mixins.json:ChunkMapMixin from mod tfc::tfc$updateGenerator
+[30Oct2026 16:18:28.283] [Server thread/INFO] [mixin/]: Mixing RandomStateMixin from tfc.mixins.json into net.minecraft.world.level.levelgen.RandomState
+[30Oct2026 16:18:28.328] [Server thread/INFO] [mixin/]: Mixing accessor.SectionStorageAccessor from tfc.mixins.json into net.minecraft.world.level.chunk.storage.SectionStorage
+[30Oct2026 16:18:28.332] [Server thread/INFO] [mixin/]: Mixing accessor.PoiSectionAccessor from tfc.mixins.json into net.minecraft.world.entity.ai.village.poi.PoiSection
+[30Oct2026 16:18:28.360] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:overworld.
+[30Oct2026 16:18:28.483] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_nether.
+[30Oct2026 16:18:28.501] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_end.
+[30Oct2026 16:18:28.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Oct2026 16:18:28.613] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[30Oct2026 16:18:28.711] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 205 ms
+[30Oct2026 16:18:28.715] [Server thread/INFO] [mixin/]: Mixing GameTestInfoMixin from tfc.mixins.json into net.minecraft.gametest.framework.GameTestInfo
+[30Oct2026 16:18:28.726] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[30Oct2026 16:18:28.765] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[30Oct2026 16:18:28.782] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[30Oct2026 16:18:28.845] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 4 tests are now running at position -4657801, -59, 4550868!
+[30Oct2026 16:18:28.851] [Server thread/INFO] [mixin/]: Mixing accessor.StructureTemplateAccessor from tfc.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate
+[30Oct2026 16:18:29.531] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'wildlife_brains:0' (1 tests)...
+[30Oct2026 16:18:29.790] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [    ]
+[30Oct2026 16:18:29.988] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [    ]
+[30Oct2026 16:18:30.400] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'wildlife_combat:0' (1 tests)...
+[30Oct2026 16:18:30.483] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+   ]
+[30Oct2026 16:18:30.739] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+   ]
+[30Oct2026 16:18:30.786] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_  ]
+[30Oct2026 16:18:30.827] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_  ]
+[30Oct2026 16:18:30.852] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_  ]
+[30Oct2026 16:18:30.994] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'wildlife_persistence:0' (1 tests)...
+[30Oct2026 16:18:31.267] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++  ]
+[30Oct2026 16:18:31.305] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++  ]
+[30Oct2026 16:18:31.465] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'wildlife_tacz:0' (1 tests)...
+[30Oct2026 16:18:31.687] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++ ]
+[30Oct2026 16:18:31.707] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++ ]
+[30Oct2026 16:18:31.749] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_]
+[30Oct2026 16:18:31.786] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++_]
+[30Oct2026 16:18:31.806] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++]
+[30Oct2026 16:18:31.806] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 4 GAME TESTS COMPLETE IN 2.961 s ======================
+[30Oct2026 16:18:31.807] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 4 required tests passed :)
+[30Oct2026 16:18:31.808] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[30Oct2026 16:18:31.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Oct2026 16:18:31.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Oct2026 16:18:31.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Oct2026 16:18:32.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[30Oct2026 16:18:32.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[30Oct2026 16:18:32.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[30Oct2026 16:18:32.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Oct2026 16:18:32.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Oct2026 16:18:32.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Oct2026 16:18:32.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Oct2026 16:18:32.985] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

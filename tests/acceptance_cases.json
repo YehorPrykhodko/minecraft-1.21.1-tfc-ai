@@ -1,0 +1,186 @@
+{
+  "description": "Behavior acceptance scenarios for future deterministic integration/unit tests. Expressions are specification, not executable tests.",
+  "cases": [
+    {
+      "id": "grizzly-approach-calm",
+      "entity": "grizzly",
+      "given": {
+        "committed": "IDLE",
+        "hp": 1.0,
+        "fear": 0.0,
+        "playerDistance": 12,
+        "playerApproaching": true,
+        "hungry": false
+      },
+      "expect": "ASSESS or WARN or RETREAT (before engagement); no forced aggression"
+    },
+    {
+      "id": "grizzly-attack-committed",
+      "entity": "grizzly",
+      "given": {
+        "committed": "ATTACK",
+        "hp": 1.0,
+        "fear": 0.0,
+        "playerDistance": 1.9,
+        "playerApproaching": true,
+        "reason": "human_too_close"
+      },
+      "expect": "remain ATTACK; routine proximity must not cancel combat"
+    },
+    {
+      "id": "grizzly-attack-pursued",
+      "entity": "grizzly",
+      "given": {
+        "committed": "ATTACK",
+        "hp": 1.0,
+        "fear": 0.0,
+        "playerDistance": 7.2,
+        "pursuitScore": 59.0
+      },
+      "expect": "do not enter RETREAT solely for player_pursuing"
+    },
+    {
+      "id": "grizzly-critical-injury",
+      "entity": "grizzly",
+      "given": {
+        "committed": "ATTACK",
+        "hp": 0.1,
+        "danger": "critical"
+      },
+      "expect": "allow escape to interrupt active ATTACK"
+    },
+    {
+      "id": "grizzly-real-fear",
+      "entity": "grizzly",
+      "given": {
+        "committed": "ATTACK",
+        "fear": "above verified panic threshold",
+        "sound": "dangerous gunshot"
+      },
+      "expect": "permit FLEE, with a meaningful minimum persistence, not a 1-tick bounce"
+    },
+    {
+      "id": "grizzly-retreat-target",
+      "entity": "grizzly",
+      "given": {
+        "committed": "RETREAT",
+        "sameThreat": true,
+        "pathValid": true,
+        "destinationReached": false,
+        "consecutiveTicks": 2
+      },
+      "expect": "reuse stable destination; avoid 150-degree destination reversal without changed threat or obstruction"
+    },
+    {
+      "id": "immutability-veto",
+      "entity": "all",
+      "given": {
+        "committed": "ATTACK",
+        "reason": "combat",
+        "candidate": "RETREAT",
+        "candidateRejected": true
+      },
+      "expect": "intent, reason and nav target remain unchanged; trace includes rejection"
+    },
+    {
+      "id": "hyena-solo-satiated",
+      "entity": "hyena",
+      "given": {
+        "packAdults": 1,
+        "hungry": false,
+        "unprovoked": true,
+        "playerHpFraction": 0.2
+      },
+      "expect": "no player-hunt due to HP; solo criterion is own hunger"
+    },
+    {
+      "id": "hyena-solo-hungry",
+      "entity": "hyena",
+      "given": {
+        "packAdults": 1,
+        "hungry": true,
+        "unprovoked": true,
+        "playerHpFraction": 1.0
+      },
+      "expect": "rare seeded chance to attempt human hunt; no automatic attack"
+    },
+    {
+      "id": "hyena-pack-healthy-player",
+      "entity": "hyena",
+      "given": {
+        "packAdults": 5,
+        "unprovoked": true,
+        "playerHpFraction": 1.0,
+        "individualHunger": 1.0
+      },
+      "expect": "no unprovoked player hunt just because members are hungry"
+    },
+    {
+      "id": "hyena-pack-weak-player",
+      "entity": "hyena",
+      "given": {
+        "packAdults": 5,
+        "unprovoked": true,
+        "playerHpFraction": 0.69,
+        "individualHunger": 0.0
+      },
+      "expect": "eligible and healthy members agree on a synchronized hunt decision (threshold configurable)"
+    },
+    {
+      "id": "hyena-pack-wounded-member",
+      "entity": "hyena",
+      "given": {
+        "packAdults": 5,
+        "unprovoked": true,
+        "playerHpFraction": 0.5,
+        "ownHpFraction": 0.1
+      },
+      "expect": "individual survival can override pack hunt; not all members must fight to death"
+    },
+    {
+      "id": "hyena-pack-stability",
+      "entity": "hyena",
+      "given": {
+        "packAdultsSequence": [
+          3,
+          2,
+          1,
+          2,
+          3
+        ],
+        "overTicks": 5
+      },
+      "expect": "do not oscillate SOLO/PACK each tick; use group membership/hysteresis"
+    },
+    {
+      "id": "hyena-flee-hunger",
+      "entity": "hyena",
+      "given": {
+        "committed": "FLEE",
+        "ownHpFraction": 0.1,
+        "hungerDrive": 1.0
+      },
+      "expect": "do not go FLEE->HUNT while escape is active and danger persists"
+    },
+    {
+      "id": "sound-occlusion",
+      "entity": "all",
+      "given": {
+        "sound": "gunshot",
+        "occluded": true,
+        "distance": "far"
+      },
+      "expect": "hearing response weaker than same unoccluded sound; panic not guaranteed"
+    },
+    {
+      "id": "trace-reason",
+      "entity": "all",
+      "given": {
+        "proposalSource": "perception",
+        "rule": "human_too_close",
+        "accepted": false
+      },
+      "expect": "logs proposal, veto cause and final authoritative intent with entity UUID and tick"
+    }
+  ]
+}
