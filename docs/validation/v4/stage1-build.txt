@@ -1,0 +1,154 @@
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/tools/cloud-cacerts -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :assemble UP-TO-DATE
+> Task :core:compileJava
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :core:sourcesJar
+> Task :core:compileTestJava UP-TO-DATE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+
+> Task :core:test
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/tools/cloud-cacerts -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080
+
+NavigationEtMeutesTest > driveOffArreteAvantContactEtLimitePas() PASSED
+
+NavigationEtMeutesTest > personnaliteStableEtDistincte() PASSED
+
+NavigationEtMeutesTest > meuteVoitUnionDesJoueurs() PASSED
+
+NavigationEtMeutesTest > meuteDecisionPartageeEtPasDeReroll() PASSED
+
+NavigationEtMeutesTest > pasDeCommandePourPropositionRefusee() PASSED
+
+NavigationEtMeutesTest > defenseEtVetoBlessure() PASSED
+
+NavigationEtMeutesTest > fuiteReutiliseUnChemin() PASSED
+
+NavigationEtMeutesTest > echecBackoffPuisLimite() PASSED
+
+ComportementTest > souvenirExpireSansPositionMagique() PASSED
+
+ComportementTest > refusNeChangeNiRaisonNiHorloge() PASSED
+
+ComportementTest > murProduitAvertissement() PASSED
+
+ComportementTest > bordureNeFaitPasOsciller() PASSED
+
+ComportementTest > replayDeterministe() PASSED
+
+ComportementTest > profilsIndependants() PASSED
+
+ComportementTest > faimExtremeDepassePeurOrdinaire() PASSED
+
+ComportementTest > secondJoueurTermineMotifChasseMaisPasDefense() PASSED
+
+ComportementTest > protectionLitLeProfil(double) > [1] 8.0 PASSED
+
+ComportementTest > protectionLitLeProfil(double) > [2] 15.0 PASSED
+
+ComportementTest > protectionLitLeProfil(double) > [3] 22.0 PASSED
+
+ComportementTest > urgenceInterromptEtMaintientLaPanique() PASSED
+
+ComportementTest > enfantNeChasseJamais() PASSED
+
+ComportementTest > soloRepueOuTirageRateNeChassePas() PASSED
+
+ComportementTest > configValidee(String) > [1] grizzly_bear PASSED
+
+ComportementTest > configValidee(String) > [2] black_bear PASSED
+
+ComportementTest > configValidee(String) > [3] polar_bear PASSED
+
+ComportementTest > configValidee(String) > [4] wolf PASSED
+
+ComportementTest > configValidee(String) > [5] direwolf PASSED
+
+ComportementTest > configValidee(String) > [6] hyena PASSED
+
+ComportementTest > configValidee(String) > [7] cougar PASSED
+
+ComportementTest > configValidee(String) > [8] panther PASSED
+
+ComportementTest > configValidee(String) > [9] lion PASSED
+
+ComportementTest > configValidee(String) > [10] sabertooth PASSED
+
+ComportementTest > configValidee(String) > [11] tiger PASSED
+
+ComportementTest > configValidee(String) > [12] crocodile PASSED
+
+ComportementTest > auditionAttenueEtVisionRespecteMur() PASSED
+
+ComportementTest > refuseLeTempsInverse() PASSED
+
+ComportementTest > migrationConserveEchelle() PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [1] grizzly_bear PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [2] black_bear PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [3] polar_bear PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [4] wolf PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [5] direwolf PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [6] hyena PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [7] cougar PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [8] panther PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [9] lion PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [10] sabertooth PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [11] tiger PASSED
+
+ComportementTest > centVingtTicksDeCombatSansMicroRetrait(String) > [12] crocodile PASSED
+
+ComportementTest > faimNeDepassePasDangerMortel() PASSED
+
+ComportementTest > retraiteAtteintDistancePuisNeRecommencePas() PASSED
+
+ComportementTest > unSeulEngagementParTick() PASSED
+
+ComportementTest > avertissementPuisPasPuisDefense() PASSED
+
+ComportementTest > faimSeuleNeDeclenchePasLaMeute() PASSED
+
+ComportementTest > deuxJoueursInterdisentChasseHyene() PASSED
+
+> Task :core:check
+> Task :mod:createMinecraftArtifacts UP-TO-DATE
+
+> Task :mod:compileJava
+Note: /workspace/minecraft-1.21.1-tfc-ai/mod/src/main/java/fr/ypwildlife/jeu/MondeFaune.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :mod:processResources UP-TO-DATE
+> Task :mod:classes
+> Task :mod:jarJar NO-SOURCE
+> Task :mod:jar
+> Task :mod:sourcesJar
+> Task :mod:compileTestJava NO-SOURCE
+> Task :mod:processTestResources NO-SOURCE
+> Task :mod:testClasses UP-TO-DATE
+> Task :mod:test NO-SOURCE
+> Task :mod:check UP-TO-DATE
+> Task :check
+> Task :core:assemble
+> Task :core:build
+> Task :mod:assemble
+> Task :mod:build
+> Task :build
+
+[Incubating] Problems report is available at: file:///workspace/minecraft-1.21.1-tfc-ai/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 7s
+10 actionable tasks: 7 executed, 3 up-to-date
